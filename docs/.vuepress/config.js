@@ -8,8 +8,8 @@ export default defineUserConfig({
 
   lang: 'zh-CN',
 
-  // title: 'VuePress',
-  // description: 'My first VuePress Site',
+  title: 'TARDIS',
+  description: '输入关键字搜索...',
 
   theme: defaultTheme({
     // logo: 'https://vuejs.press/images/hero.png',

@@ -1,6 +1,4 @@
-/**
- * 知识图谱
- */
+<!-- 知识图谱 -->
 
 <template lang="html">
   <div class="knowledge-graph" :style="`width: ${width}; height: ${height};`">
@@ -13,7 +11,8 @@
 
     <!-- 搜索工具栏 -->
     <div class="search-tool">
-      <div class="item"> <!-- 关键字 -->
+      <!-- 关键字 -->
+      <div class="item">
         <label>关键字</label>
         <div class="content">
           <div class="input" ref="select">
@@ -73,7 +72,7 @@ export default {
      */
     width: {
       type: String,
-      default: '100%'
+      default: '100%',
     },
 
     /**
@@ -82,17 +81,14 @@ export default {
      */
     height: {
       type: String,
-      default: '100%'
+      default: '100%',
     },
 
     /**
      * 标题
      * @param {String}
      */
-    title: {
-      type: String,
-      default: '知识图谱'
-    },
+    title: String,
 
     /**
      * 节点
@@ -106,7 +102,7 @@ export default {
      */
     nodes: {
       type: Array,
-      default: () => ([])
+      default: () => [],
     },
 
     /**
@@ -115,7 +111,7 @@ export default {
      */
     edges: {
       type: Array,
-      default: () => ([])
+      default: () => [],
     },
 
     /**
@@ -138,16 +134,16 @@ export default {
      */
     sortLegends: {
       type: Boolean,
-      default: false
+      default: false,
     },
 
     /**
-     * 其它分类，无分类项目的默认分类
+     * 其他分类，无分类项目的默认分类
      * @param {Object}
      */
     categoryOther: {
       type: String,
-      default: '其它'
+      default: '其他',
     },
 
     /**
@@ -157,7 +153,7 @@ export default {
      */
     minNodeSize: {
       type: Number,
-      default: 10
+      default: 10,
     },
 
     /**
@@ -167,7 +163,7 @@ export default {
      */
     maxNodeSize: {
       type: Number,
-      default: 50
+      default: 50,
     },
 
     /**
@@ -177,7 +173,7 @@ export default {
      */
     nodeSizeStep: {
       type: Number,
-      default: 0.5
+      default: 0.5,
     },
 
     /**
@@ -187,7 +183,7 @@ export default {
      */
     minNodeOpacity: {
       type: Number,
-      default: 0.5
+      default: 0.5,
     },
 
     /**
@@ -197,7 +193,7 @@ export default {
      */
     maxNodeOpacity: {
       type: Number,
-      default: 1
+      default: 1,
     },
 
     /**
@@ -207,7 +203,7 @@ export default {
      */
     maxNodeOpacityDegree: {
       type: Number,
-      default: 10
+      default: 10,
     },
 
     /**
@@ -217,7 +213,7 @@ export default {
      */
     nodeOpacityIndex: {
       type: Number,
-      default: 1
+      default: 1,
     },
 
     /**
@@ -226,7 +222,7 @@ export default {
      */
     nodeVisibleDegree: {
       type: Number,
-      default: 1
+      default: 1,
     },
 
     /**
@@ -235,7 +231,7 @@ export default {
      */
     nodeLabelVisibleDegree: {
       type: Number,
-      default: 1
+      default: 1,
     },
 
     /**
@@ -244,7 +240,7 @@ export default {
      */
     color: {
       type: Array,
-      default: () => ([
+      default: () => [
         // 蓝
         '#338fcc',
         // 青
@@ -259,7 +255,7 @@ export default {
         '#d96d6f',
         // 粉
         '#ff88b8'
-      ])
+      ],
     },
 
     /**
@@ -269,7 +265,7 @@ export default {
      */
     linkEdgeColor: {
       type: String,
-      default: ACTIVE_COLOR
+      default: ACTIVE_COLOR,
     },
 
     /**
@@ -280,7 +276,7 @@ export default {
      */
     force: {
       type: Object,
-      default: () => ({})
+      default: () => ({}),
     },
 
     /**
@@ -289,7 +285,7 @@ export default {
      */
     focusNodeAdjacency: {
       type: Boolean,
-      default: false
+      default: false,
     }
   },
 
@@ -397,7 +393,7 @@ export default {
     /**
      * ECharts 图例
      * 取 nodes 中非空的 category 属性，并去重
-     * 末尾补充“其它”分类，用于对没有设置分类的项目归类
+     * 末尾补充“其他”分类，用于对没有设置分类的项目归类
      * @return {Array} 图例
      */
     _legends () {
@@ -409,14 +405,14 @@ export default {
       } else { // 未传入属性 legends 时，默认按节点的 category 分类自动生成图例
         __legends = [
           ...new Set( // 利用 Set 去重
-            nodes.map(({ category }) => category).filter(item => commonUtil.isNotEmpty(item) && item !== categoryOther) // 不为空，且不是“其它”
+            nodes.map(({ category }) => category).filter(item => commonUtil.isNotEmpty(item) && item !== categoryOther) // 不为空，且不是“其他”
           )
         ]
         if (sortLegends) __legends.sort((a, b) => a.localeCompare(b)) // 按名称首字母排序
       }
       return [
         ...__legends,
-        categoryOther // 在末尾补充“其它”分类
+        categoryOther // 在末尾补充“其他”分类
       ]
     },
 
@@ -467,7 +463,7 @@ export default {
         return {
           ...item,
           value: degree,
-          category: categoryIndex >= 0 ? categoryIndex : _legends.length - 1, // 节点分类，默认最后一个，对应“其它”分类
+          category: categoryIndex >= 0 ? categoryIndex : _legends.length - 1, // 节点分类，默认最后一个，对应“其他”分类
           symbolSize: getNodeSize(degree), // 节点大小
           itemStyle, // 图形样式
           label: { // 标签

@@ -1,127 +1,107 @@
-/**
- * 响应式的 ECharts 组件
- */
+<!--
+响应式的 ECharts 组件
+ -->
 
-<template lang="html">
-  <div
-    class="responsive-echarts"
-    :style="`width: ${width}; height: ${height};`"
-  />
-</template>
+<script setup>
+import { onBeforeUnmount, onMounted, ref, watch } from 'vue'
+// 此处不引入具体的 ECharts 组件
+import * as echarts from 'echarts/lib/echarts'
 
-<script>
-import echarts from 'echarts/lib/echarts' // 此处不引入具体的 ECharts 组件
+const emit = defineEmits(['click'])
 
-export default {
-  props: {
-    /**
-     * ECharts 的 option
-     * @param {Object}
-     */
-    option: {
-      type: Object,
-      default: () => ({})
-    },
-
-    /**
-     * 宽度，默认 100%
-     * @param {String}
-     */
-    width: {
-      type: String,
-      default: '100%'
-    },
-
-    /**
-     * 高度，默认 100%
-     * @param {String}
-     */
-    height: {
-      type: String,
-      default: '100%'
-    },
-
-    /**
-     * 加载状态
-     * @param {Boolean}
-     */
-    loading: {
-      type: Boolean,
-      default: false
-    }
+const props = defineProps({
+  /**
+   * ECharts 的 option
+   * @param {Object}
+   */
+  option: {
+    type: Object,
+    default: () => ({}),
   },
 
-  data () {
-    return {
-      /**
-       * 存放 ECharts 实例
-       * @param {Object}
-       */
-      myChart: null
-    }
+  /**
+   * 宽度，默认 100%
+   * @param {String}
+   */
+  width: {
+    type: String,
+    default: '100%',
   },
 
-  mounted () {
-    // 首次绘制
-    this.draw()
-    // 添加 resize 事件监听器
-    window.addEventListener('resize', this.myChart && this.myChart.resize)
+  /**
+   * 高度，默认 100%
+   * @param {String}
+   */
+  height: {
+    type: String,
+    default: '100%',
   },
 
-  beforeDestroy () {
-    // 销毁实例
-    this.myChart && this.myChart.dispose && this.myChart.dispose()
-    // 移除 resize 事件监听器
-    window.removeEventListener('resize', this.myChart && this.myChart.resize)
+  /**
+   * 加载状态
+   * @param {Boolean}
+   */
+  loading: {
+    type: Boolean,
+    default: false,
   },
+})
 
-  watch: {
-    /**
-     * 监听 option 属性的变化
-     */
-    option: {
-      handler (newVal, oldVal) {
-        if (this.myChart) {
-          if (newVal) { // 新值存在时使用新值
-            this.myChart.setOption(newVal, true)
-          } else { // 否则使用旧值
-            this.myChart.setOption(oldVal, true)
-          }
-        } else { // 未初始化时进行绘制
-          this.draw()
-        }
-      },
-      deep: true // 深监听
-    },
+let instance = null
 
-    /**
-     * 监听 loading 属性的变化
-     */
-    loading (val) {
-      if (val) { // 开始 loading 态
-        this.myChart.showLoading()
-      } else { // 结束 loading 态
-        this.myChart.hideLoading()
-      }
-    }
-  },
+const el = ref(null)
 
-  methods: {
-    /**
-     * 绘制 ECharts
-     */
-    draw () {
-      const el = this.$el
-      this.myChart = echarts.init(el, '')
-      this.myChart.setOption(this.option)
-      // 绑定点击事件
-      this.myChart.on('click', e => {
-        this.$emit('click', e)
-      })
-    }
+const draw = () => {
+  if (el.value) {
+    instance = echarts.init(el.value, '')
+    instance.setOption(props.option)
+    // 绑定点击事件
+    instance.on('click', e => {
+      emit('click', e)
+    })
   }
 }
+
+onMounted(() => {
+  // 首次绘制
+  draw()
+  // 添加 resize 事件监听器
+  window.addEventListener('resize', instance?.resize)
+})
+
+onBeforeUnmount(() => {
+  // 销毁实例
+  instance?.dispose?.()
+  // 移除 resize 事件监听器
+  window.removeEventListener('resize', instance?.resize)
+})
+
+watch(() => props.option, (newVal, oldVal) => {
+  if (instance) {
+    if (newVal) {
+      // 新值存在时使用新值
+      instance.setOption(newVal, true)
+    } else {
+      // 否则使用旧值
+      instance.setOption(oldVal, true)
+    }
+  } else {
+    // 未初始化时进行绘制
+    draw()
+  }
+}, { immediate: true })
+
+watch(() => props.loading, val => {
+  if (val) {
+    // 开始 loading 态
+    instance?.showLoading()
+  } else {
+    // 结束 loading 态
+    instance?.hideLoading()
+  }
+})
 </script>
 
-<style lang="css" scoped>
-</style>
+<template lang="html">
+  <div ref="el" class="responsive-echarts" :style="{ width, height }" />
+</template>
