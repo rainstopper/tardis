@@ -1,9 +1,11 @@
 {
   "nodes": [
-    { "name": "A" },
-    { "name": "B" }
+    { "name": "喜欢" },
+    { "name": "熟悉" },
+    { "name": "意外" }
   ],
   "edges": [
-    { "source": "A", "target": "B" }
+    { "source": "喜欢", "target": "熟悉", "description": "喜欢=熟悉+意外" },
+    { "source": "喜欢", "target": "意外", "description": "喜欢=熟悉+意外" }
   ]
 }
