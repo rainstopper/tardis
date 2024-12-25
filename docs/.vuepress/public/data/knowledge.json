@@ -1,7 +1,7 @@
 {
   "nodes": [
     { "name": "喜欢=熟悉+意外" },
-    { "name": "临界点", "alias": "临界点（Tipping point）" },
+    { "name": "临界点", "description": "临界点（Tipping point）" },
     { "name": "《引爆点的报复》", "category": "书籍", "description": "《引爆点的报复：超故事、超级传播者与社会工程的兴起》（Revenge of the Tipping Point: Overstories, Superspreaders, and the Rise of Social Engineering）" },
     { "name": "马尔科姆·格拉德威尔", "category": "人物", "description": "马尔科姆·格拉德威尔（Malcolm Gladwell）" },
     { "name": "《引爆点》", "category": "书籍", "description": "《引爆点：突破点》（The Tipping Point: How Little Things Can Make a Big Difference）" },
