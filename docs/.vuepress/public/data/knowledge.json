@@ -57,7 +57,8 @@
     { "name": "罗恩·达尔", "category": "人物", "description": "罗恩·达尔（Ron Dahl）" },
     { "name": "卡罗尔·德韦克", "category": "人物", "description": "卡罗尔·德韦克（Carol Dweck）" },
     { "name": "成长思维模式", "category": "规律", "description": "成长思维模式（Growth Mindset）" },
-    { "name": "智者的反馈", "description": "智者的反馈（wise-feedback）是一个能有效解决导师困境的办法。\n具体做法是表达“你在我心中地位很高，我对你的看法很正面，我对你有如此高的期待。”" }
+    { "name": "智者的反馈", "description": "智者的反馈（wise-feedback）是一个能有效解决导师困境的办法。\n具体做法是表达“你在我心中地位很高，我对你的看法很正面，我对你有如此高的期待。”" },
+    { "name": "先同步再领导", "category": "规律" }
   ],
   "edges": [
     { "source": "《引爆点的报复》", "target": "临界点" },
@@ -107,6 +108,7 @@
     { "source": "卡罗尔·德韦克", "value": "提出", "target": "成长思维模式" },
     { "source": "大卫·耶格尔", "value": "与罗恩·达尔共同提出", "target": "智者的反馈" },
     { "source": "罗恩·达尔", "value": "与大卫·耶格尔共同提出", "target": "智者的反馈" },
-    { "source": "智者的反馈", "value": "能有效解决", "target": "导师困境" }
+    { "source": "智者的反馈", "value": "能有效解决", "target": "导师困境" },
+    { "source": "智者的反馈", "value": "是一种", "target": "先同步再领导" }
   ]
 }
