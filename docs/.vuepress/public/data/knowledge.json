@@ -31,6 +31,7 @@
     { "name": "百事可乐", "category": "公司" },
     { "name": "社会工程" },
     { "name": "超级传播者" },
+    { "name": "少数人法则", "description": "少数人法则（the Law of the Few）指出，流行往往是由少数人发动的" }
   ],
   "edges": [
     { "source": "《引爆点的报复》", "target": "临界点" },
@@ -40,7 +41,7 @@
     { "source": "《引爆点》", "target": "《引爆点的报复》", "description": "续作" },
     { "source": "《引爆点》", "target": "关键人物", "description": "提出" },
     { "source": "关键人物", "target": "流行", "description": "引爆" },
-    { "source": "《引爆点的报复》", "target": "超故事" },
+    { "source": "《引爆点的报复》", "target": "超故事", "description": "提出" },
     { "source": "多样性", "target": "反脆弱", "description": "提供" },
     { "source": "多样性", "target": "复原力", "description": "提供" },
     { "source": "超故事", "target": "小区域变异", "description": "引发" },
@@ -56,6 +57,9 @@
     { "source": "神奇的三分之一定律", "target": "流行", "description": "引爆" },
     { "source": "因德拉·努伊", "target": "百事可乐", "description": "担任CEO" },
     { "source": "神奇的三分之一定律", "target": "社会工程", "description": "引出" },
-    { "source": "超级传播者", "target": "流行", "description": "引爆" }
+    { "source": "《引爆点的报复》", "target": "超级传播者", "description": "提出" },
+    { "source": "超级传播者", "target": "流行", "description": "引爆" },
+    { "source": "《引爆点》", "target": "少数人法则", "description": "提出" },
+    { "source": "超级传播者", "target": "少数人法则", "description": "相当于" }
   ]
 }
