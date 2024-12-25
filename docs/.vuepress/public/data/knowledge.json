@@ -56,7 +56,8 @@
     { "name": "地位与尊重假说", "description": "地位与尊重假说（status-and-respect hypothesis）认为，10-25岁大脑中寻求奖赏的区域特别敏锐，使人对奖励和羞耻都极其敏感。\n想让他有任何进步，你必须先给他足够的安全感才行。" },
     { "name": "罗恩·达尔", "category": "人物", "description": "罗恩·达尔（Ron Dahl）" },
     { "name": "卡罗尔·德韦克", "category": "人物", "description": "卡罗尔·德韦克（Carol Dweck）" },
-    { "name": "成长思维模式", "category": "规律", "description": "成长思维模式（Growth Mindset）" }
+    { "name": "成长思维模式", "category": "规律", "description": "成长思维模式（Growth Mindset）" },
+    { "name": "智者的反馈", "description": "智者的反馈（wise-feedback）" }
   ],
   "edges": [
     { "source": "《引爆点的报复》", "target": "临界点" },
@@ -100,9 +101,11 @@
     { "source": "伊利亚·苏茨科弗", "value": "的博士导师是", "target": "杰弗里·辛顿" },
     { "source": "时代精神", "value": "是一种", "target": "超故事" },
     { "source": "《10到25岁》", "value": "的作者是", "target": "大卫·耶格尔" },
-    { "source": "大卫·耶格尔", "value": "提出", "target": "地位与尊重假说", "description": "与罗恩·达尔和卡罗尔·德韦克两位合作者一起" },
-    { "source": "罗恩·达尔", "value": "提出", "target": "地位与尊重假说", "description": "与大卫·耶格尔和卡罗尔·德韦克两位合作者一起" },
-    { "source": "卡罗尔·德韦克", "value": "提出", "target": "地位与尊重假说", "description": "与大卫·耶格尔和罗恩·达尔两位合作者一起" },
-    { "source": "卡罗尔·德韦克", "value": "提出", "target": "成长思维模式" }
+    { "source": "大卫·耶格尔", "value": "与罗恩·达尔和卡罗尔·德韦克共同提出", "target": "地位与尊重假说" },
+    { "source": "罗恩·达尔", "value": "与大卫·耶格尔和卡罗尔·德韦克共同提出", "target": "地位与尊重假说" },
+    { "source": "卡罗尔·德韦克", "value": "与大卫·耶格尔和罗恩·达尔共同提出", "target": "地位与尊重假说" },
+    { "source": "卡罗尔·德韦克", "value": "提出", "target": "成长思维模式" },
+    { "source": "大卫·耶格尔", "value": "与罗恩·达尔共同提出", "target": "智者的反馈" },
+    { "source": "罗恩·达尔", "value": "与大卫·耶格尔共同提出", "target": "智者的反馈" }
   ]
 }
