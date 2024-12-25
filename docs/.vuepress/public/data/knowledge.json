@@ -70,7 +70,8 @@
     { "name": "认知闭合需要", "description": "认知闭合需要（need for cognitive closure）是指有果就必须有因，有开头就必须有结局。\n综合而论，学者们认为认知闭合需要高的人有以下这些特征：\n- 希望事物是可预测的；\n- 要求明确的、井井有条的结构；\n- 喜欢果断的决策；\n- 不喜欢模糊和不确定性；\n- 心理上比较封闭而非开放。" },
     { "name": "模糊性容忍", "description": "模糊性容忍（tolerance for ambiguity）与认知闭合需要相反，能接受事情的“不闭合”。" },
     { "name": "丹纳加尔·戈德斯韦特·杨", "category": "人物", "description": "丹纳加尔·戈德斯韦特·杨（Dannagal Goldthwaite Young），特拉华大学传播学和政治学教授" },
-    { "name": "《错误》", "category": "书籍", "description": "《错误：媒体、政治和身份如何驱动人们对错误信息的胃口》（Wrong: How Media, Politics, and Identity Drive Our Appetite for Misinformation）" }
+    { "name": "《错误》", "category": "书籍", "description": "《错误：媒体、政治和身份如何驱动人们对错误信息的胃口》（Wrong: How Media, Politics, and Identity Drive Our Appetite for Misinformation）" },
+    { "name": "认知需要", "description": "认知需要（need for cognition）与认知闭合需要的意思截然相反，关注思考而不是结论。" }
   ],
   "edges": [
     { "source": "《引爆点的报复》", "target": "临界点" },
@@ -131,6 +132,7 @@
     { "source": "孙邻家", "value": "研发", "target": "Traini" },
     { "source": "模糊性容忍", "value": "相对于", "target": "认知闭合需要" },
     { "source": "《错误》", "value": "的作者是", "target": "丹纳加尔·戈德斯韦特·杨" },
-    { "source": "《错误》", "value": "讨论", "target": "认知闭合需要", "description": "讨论认知闭合需要的社会效应" }
+    { "source": "《错误》", "value": "讨论", "target": "认知闭合需要", "description": "讨论认知闭合需要的社会效应" },
+    { "source": "模糊性容忍", "value": "的另一个说法是高", "target": "认知需要", "description": "关注思考而不是结论，与认知闭合需要相反" }
   ]
 }
