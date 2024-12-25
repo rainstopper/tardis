@@ -71,7 +71,9 @@
     { "name": "模糊性容忍", "description": "模糊性容忍（tolerance for ambiguity）与认知闭合需要相反，能接受事情的“不闭合”。" },
     { "name": "丹纳加尔·戈德斯韦特·杨", "category": "人物", "description": "丹纳加尔·戈德斯韦特·杨（Dannagal Goldthwaite Young），特拉华大学传播学和政治学教授" },
     { "name": "《错误》", "category": "书籍", "description": "《错误：媒体、政治和身份如何驱动人们对错误信息的胃口》（Wrong: How Media, Politics, and Identity Drive Our Appetite for Misinformation）" },
-    { "name": "认知需要", "description": "认知需要（need for cognition）与认知闭合需要的意思截然相反，关注思考而不是结论。" }
+    { "name": "认知需要", "description": "认知需要（need for cognition）与认知闭合需要的意思截然相反，关注思考而不是结论。" },
+    { "name": "保守主义", "category": "政治" },
+    { "name": "自由主义", "category": "政治" }
   ],
   "edges": [
     { "source": "《引爆点的报复》", "target": "临界点" },
@@ -133,6 +135,8 @@
     { "source": "模糊性容忍", "value": "相对于", "target": "认知闭合需要" },
     { "source": "《错误》", "value": "的作者是", "target": "丹纳加尔·戈德斯韦特·杨" },
     { "source": "《错误》", "value": "讨论", "target": "认知闭合需要", "description": "讨论认知闭合需要的社会效应" },
-    { "source": "模糊性容忍", "value": "的另一个说法是高度的", "target": "认知需要", "description": "关注思考而不是结论，与认知闭合需要相反" }
+    { "source": "模糊性容忍", "value": "的另一个说法是高度的", "target": "认知需要", "description": "关注思考而不是结论，与认知闭合需要相反" },
+    { "source": "认知闭合需要", "value": "的人更倾向于", "target": "保守主义", "description": "心理学家近年来发现，高认知闭合需要的人，在政治倾向上更倾向于保守主义，容易投票给共和党" },
+    { "source": "模糊性容忍", "value": "的人更倾向于", "target": "自由主义", "description": "高认知需要、也就是高模糊性容忍的人，更倾向于自由主义，容易投票给民主党" }
   ]
 }
