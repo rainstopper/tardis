@@ -32,7 +32,15 @@
     { "name": "社会工程" },
     { "name": "超级传播者" },
     { "name": "少数人法则", "description": "少数人法则（the Law of the Few）指出，流行往往是由少数人发动的" },
-    { "name": "二八定律", "category": "规律" }
+    { "name": "二八定律", "category": "规律" },
+    { "name": "维克多·安布罗斯", "category": "人物", "description": "维克多·安布罗斯（Victor Ambros），2024年诺贝尔生理或医学奖得主" },
+    { "name": "加里·鲁夫昆", "category": "人物", "description": "加里·鲁夫昆（Gary Ruvkun），2024年诺贝尔生理或医学奖得主" },
+    { "name": "大卫·巴尔的摩", "category": "人物", "description": "大卫·巴尔的摩（David Baltimore），1975年诺贝尔生理或医学奖得主" },
+    { "name": "罗伯特·霍维茨", "category": "人物", "description": "罗伯特·霍维茨（Robert Horvitz），1975年诺贝尔生理或医学奖得主" },
+    { "name": "沃尔特·吉尔伯特", "category": "人物", "description": "沃尔特·吉尔伯特（Walter Gilbert）" },
+    { "name": "詹姆斯·沃森", "category": "人物", "description": "詹姆斯·沃森（James Watson）" },
+    { "name": "阿卜杜勒·萨拉姆", "category": "人物", "description": "阿卜杜勒·萨拉姆（Abdus Salam）" },
+    { "name": "萨尔瓦多·卢里亚", "category": "人物", "description": "萨尔瓦多·卢里亚（Salvador Luria）" }
   ],
   "edges": [
     { "source": "《引爆点的报复》", "target": "临界点" },
@@ -62,6 +70,13 @@
     { "source": "超级传播者", "target": "流行", "description": "引爆" },
     { "source": "《引爆点》", "target": "少数人法则", "description": "提出" },
     { "source": "超级传播者", "target": "少数人法则", "description": "流行的爆发，很多时候是少数超级传播者在起关键作用" },
-    { "source": "少数人法则", "target": "二八定律", "description": "大部分影响力集中在少数人身上" }
+    { "source": "少数人法则", "target": "二八定律", "description": "大部分影响力集中在少数人身上" },
+    { "source": "维克多·安布罗斯", "target": "加里·鲁夫昆", "description": "2024年诺贝尔生理或医学奖得主" },
+    { "source": "维克多·安布罗斯", "target": "大卫·巴尔的摩", "description": "博士导师" },
+    { "source": "加里·鲁夫昆", "target": "罗伯特·霍维茨", "description": "博士后导师" },
+    { "source": "罗伯特·霍维茨", "target": "沃尔特·吉尔伯特", "description": "博士导师" },
+    { "source": "罗伯特·霍维茨", "target": "詹姆斯·沃森", "description": "博士导师" },
+    { "source": "沃尔特·吉尔伯特", "target": "阿卜杜勒·萨拉姆", "description": "博士导师" },
+    { "source": "詹姆斯·沃森", "target": "萨尔瓦多·卢里亚", "description": "博士导师" }
   ]
 }
