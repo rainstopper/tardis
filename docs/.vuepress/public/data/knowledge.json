@@ -1,6 +1,6 @@
 {
   "nodes": [
-    { "name": "喜欢=熟悉+意外", "category": "公式" },
+    { "name": "喜欢=熟悉+意外", "category": "规律" },
     { "name": "临界点", "description": "临界点（Tipping point）" },
     { "name": "《引爆点的报复》", "category": "书籍", "description": "《引爆点的报复：超故事、超级传播者与社会工程的兴起》（Revenge of the Tipping Point: Overstories, Superspreaders, and the Rise of Social Engineering）" },
     { "name": "马尔科姆·格拉德威尔", "category": "人物", "description": "马尔科姆·格拉德威尔（Malcolm Gladwell）" },
@@ -26,12 +26,13 @@
     { "name": "《科技想要什么》", "category": "书籍" },
     { "name": "尤瓦尔·赫拉利", "category": "人物", "description": "尤瓦尔·赫拉利（Yuval Noah Harari）" },
     { "name": "《智人之上》", "category": "书籍" },
-    { "name": "神奇的三分之一定律", "description": "神奇的三分之一（Magic Third）定律\n试想有一个挺大的群体，有自身的文化。现在我们想引入一些外来者，通过他们改变这个文化。引入太少或者太多都不行，这个“临界值”是多少？\n格拉德威尔说，当少数派人数比例达到四分之一到三分之一的时候，就会对群体文化产生重大影响，乃至于可以引爆巨变。\n少数派人数没到临界值，就会被符号化。", "link": "/posts/magic-third" },
+    { "name": "神奇的三分之一定律", "category": "规律", "description": "神奇的三分之一（Magic Third）定律\n试想有一个挺大的群体，有自身的文化。现在我们想引入一些外来者，通过他们改变这个文化。引入太少或者太多都不行，这个“临界值”是多少？\n格拉德威尔说，当少数派人数比例达到四分之一到三分之一的时候，就会对群体文化产生重大影响，乃至于可以引爆巨变。\n少数派人数没到临界值，就会被符号化。", "link": "/posts/magic-third" },
     { "name": "因德拉·努伊", "description": "因德拉·努伊（Indra Nooyi）" },
     { "name": "百事可乐", "category": "公司" },
     { "name": "社会工程" },
     { "name": "超级传播者" },
-    { "name": "少数人法则", "description": "少数人法则（the Law of the Few）指出，流行往往是由少数人发动的" }
+    { "name": "少数人法则", "description": "少数人法则（the Law of the Few）指出，流行往往是由少数人发动的" },
+    { "name": "二八定律", "category": "规律" }
   ],
   "edges": [
     { "source": "《引爆点的报复》", "target": "临界点" },
@@ -60,6 +61,7 @@
     { "source": "《引爆点的报复》", "target": "超级传播者", "description": "提出" },
     { "source": "超级传播者", "target": "流行", "description": "引爆" },
     { "source": "《引爆点》", "target": "少数人法则", "description": "提出" },
-    { "source": "超级传播者", "target": "少数人法则", "description": "流行的爆发，很多时候是少数超级传播者在起关键作用" }
+    { "source": "超级传播者", "target": "少数人法则", "description": "流行的爆发，很多时候是少数超级传播者在起关键作用" },
+    { "source": "少数人法则", "target": "二八定律", "description": "大部分影响力集中在少数人身上" }
   ]
 }
