@@ -49,7 +49,9 @@
     { "name": "杰弗里·辛顿", "category": "人物", "description": "杰弗里·辛顿（Geoffrey Hinton），2024年诺贝尔物理奖得主" },
     { "name": "伊利亚·苏茨科弗", "category": "人物", "description": "伊利亚·苏茨科弗（Ilya Sutskever），OpenAI前首席科学家" },
     { "name": "OpenAI", "category": "公司" },
-    { "name": "时代精神", "description": "时代精神（德语：Zeitgeist）就是在一定的历史时期内，笼罩一个文化、一个国家的超故事" }
+    { "name": "时代精神", "description": "时代精神（德语：Zeitgeist）就是在一定的历史时期内，笼罩一个文化、一个国家的超故事" },
+    { "name": "《10到20岁》", "category": "书籍", "description": "《10到25岁：激励年轻人的科学——引领下一代的突破性方法，并让你的生活更加轻松》（10 to 25: The Science of Motivating Young People: A Groundbreaking Approach to Leading the Next Generation―And Making Your Own Life Easier）" },
+    { "name": "大卫·耶格尔", "category": "人物", "description": "大卫·耶格尔（David Yeager）" }
   ],
   "edges": [
     { "source": "《引爆点的报复》", "target": "临界点" },
@@ -91,6 +93,7 @@
     { "source": "约瑟夫·汤姆孙", "value": "的老师是", "target": "尼古拉·特斯拉" },
     { "source": "伊利亚·苏茨科弗", "value": "曾任职于", "target": "OpenAI", "description": "OpenAI前首席科学家" },
     { "source": "伊利亚·苏茨科弗", "value": "的博士导师是", "target": "杰弗里·辛顿" },
-    { "source": "时代精神", "value": "是一种", "target": "超故事" }
+    { "source": "时代精神", "value": "是一种", "target": "超故事" },
+    { "source": "《10到25岁》", "value": "的作者是", "target": "大卫·耶格尔" }
   ]
 }
