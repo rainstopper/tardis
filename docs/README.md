@@ -28,4 +28,4 @@ title: 首页
 # footer: MIT Licensed | Copyright © 2018-present VuePress Community
 ---
 
-<KnowledgeGraphAsync url="/data/knowledge.json" height="60vh" />
+<KnowledgeGraphAsync url="/data/knowledge.json" height="60vh" :force="{ gravity: 0.1 }" />
