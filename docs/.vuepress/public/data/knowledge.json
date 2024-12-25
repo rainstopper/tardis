@@ -66,7 +66,8 @@
     { "name": "孩视", "description": "居高临下像看小孩一样看一个人，一般用于指对皇上" },
     { "name": "协作式解决纷争", "description": "协作式解决纷争（collaborative troubleshooting）" },
     { "name": "孙邻家", "category": "人物", "description": "孙邻家（Arvin Sun）" },
-    { "name": "Traini", "category": "产品" }
+    { "name": "Traini", "category": "产品" },
+    { "name": "认知闭合需要", "description": "认知闭合需要（need for cognitive closure）是指有果就必须有因，有开头就必须有结局。" }
   ],
   "edges": [
     { "source": "《引爆点的报复》", "target": "临界点" },
