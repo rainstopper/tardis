@@ -88,6 +88,7 @@
     { "source": "詹姆斯·沃森", "value": "的博士导师是", "target": "萨尔瓦多·卢里亚" },
     { "source": "大卫·贝克尔", "value": "的博士导师是", "target": "兰迪·谢克曼" },
     { "source": "约瑟夫·汤姆孙", "value": "的老师是", "target": "尼古拉·特斯拉" },
-    { "source": "伊利亚·苏茨科弗", "value": "曾任职于", "target": "OpenAI", "description": "OpenAI前首席科学家" }
+    { "source": "伊利亚·苏茨科弗", "value": "曾任职于", "target": "OpenAI", "description": "OpenAI前首席科学家" },
+    { "source": "伊利亚·苏茨科弗", "value": "的博士导师是", "target": "杰弗里·辛顿" }
   ]
 }
