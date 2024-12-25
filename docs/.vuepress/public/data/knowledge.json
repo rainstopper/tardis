@@ -67,7 +67,7 @@
     { "name": "协作式解决纷争", "description": "协作式解决纷争（collaborative troubleshooting）" },
     { "name": "孙邻家", "category": "人物", "description": "孙邻家（Arvin Sun）" },
     { "name": "Traini", "category": "产品" },
-    { "name": "认知闭合需要", "description": "认知闭合需要（need for cognitive closure）是指有果就必须有因，有开头就必须有结局。" },
+    { "name": "认知闭合需要", "description": "认知闭合需要（need for cognitive closure）是指有果就必须有因，有开头就必须有结局。\n综合而论，学者们认为认知闭合需要高的人有以下这些特征：\n- 希望事物是可预测的；\n- 要求明确的、井井有条的结构；\n- 喜欢果断的决策；\n- 不喜欢模糊和不确定性；\n- 心理上比较封闭而非开放。" },
     { "name": "模糊性容忍", "description": "模糊性容忍（tolerance for ambiguity）与认知闭合需要相反，能接受事情的“不闭合”。" }
   ],
   "edges": [
