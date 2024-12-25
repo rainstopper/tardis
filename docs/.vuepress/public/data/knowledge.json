@@ -7,7 +7,7 @@
     { "name": "《引爆点》", "category": "书籍", "description": "《引爆点：突破点》（The Tipping Point: How Little Things Can Make a Big Difference）" },
     { "name": "关键人物" },
     { "name": "流行" },
-    { "name": "超故事" },
+    { "name": "超故事", "description": "超故事（Overstory）是比文化和社会规范更隐蔽的社会环境，能不动声色地影响人的行为。单词 overstory 有森林里树木顶层树冠的意思，顶层树冠决定了森林下层的光线、温度和湿度，从而塑造了地面生态。" },
     { "name": "多样性" },
     { "name": "反脆弱" },
     { "name": "复原力" },
