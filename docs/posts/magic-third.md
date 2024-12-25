@@ -5,10 +5,10 @@ title: 神奇的三分之一定律
 # 神奇的三分之一定律
 
 ::: important 当一个群体中少数派的人数比例达到四分之一到三分之一左右，他们就会对群体的文化产生决定性的影响
-这个定律由马尔科姆·格拉德威尔（Malcolm Gladwell）在《引爆点的报复：超故事、超级传播者与社会工程的兴起》（Revenge of the Tipping Point: Overstories, Superspreaders, and the Rise of Social Engineering）中提出。
+由马尔科姆·格拉德威尔（Malcolm Gladwell）在《引爆点的报复：超故事、超级传播者与社会工程的兴起》（Revenge of the Tipping Point: Overstories, Superspreaders, and the Rise of Social Engineering）中提出。
 :::
 
-## 少数派人数没达到临界值，就会被符号化
+## 一、少数派人数没达到临界值，就会被符号化
 
 美国黑人的学业成绩普遍不如白人，更不如亚裔。如果一个班里有个黑人小孩，你很可能会发现他从幼儿园入学，认知能力好像就比同学差一点，然后随着年龄增长差距越来越大。于是人们难免就说，是不是黑人智商不行？
 
