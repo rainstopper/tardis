@@ -133,6 +133,6 @@
     { "source": "模糊性容忍", "value": "相对于", "target": "认知闭合需要" },
     { "source": "《错误》", "value": "的作者是", "target": "丹纳加尔·戈德斯韦特·杨" },
     { "source": "《错误》", "value": "讨论", "target": "认知闭合需要", "description": "讨论认知闭合需要的社会效应" },
-    { "source": "模糊性容忍", "value": "的另一个说法是高", "target": "认知需要", "description": "关注思考而不是结论，与认知闭合需要相反" }
+    { "source": "模糊性容忍", "value": "的另一个说法是高度的", "target": "认知需要", "description": "关注思考而不是结论，与认知闭合需要相反" }
   ]
 }
