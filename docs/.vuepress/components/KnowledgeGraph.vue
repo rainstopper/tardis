@@ -252,7 +252,7 @@ export default {
         // 橘
         '#fab36f',
         // 棕
-        '#af6c3f',
+        '#bb7444',
         // 红
         '#d96d6f',
         // 粉
