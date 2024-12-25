@@ -39,7 +39,6 @@
     { "source": "《引爆点》", "target": "马尔科姆·格拉德威尔", "description": "作者" },
     { "source": "《引爆点》", "target": "《引爆点的报复》", "description": "续作" },
     { "source": "《引爆点》", "target": "关键人物", "description": "提出" },
-    { "source": "马尔科姆·格拉德威尔", "target": "关键人物", "description": "在《引爆点》一书中提出" },
     { "source": "关键人物", "target": "流行", "description": "引爆" },
     { "source": "《引爆点的报复》", "target": "超故事" },
     { "source": "多样性", "target": "反脆弱", "description": "提供" },
