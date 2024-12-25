@@ -46,6 +46,7 @@
     { "source": "单一培育", "target": "高效" },
     { "source": "单一培育", "target": "脆弱" },
     { "source": "脆弱", "target": "反脆弱", "description": "相对" },
+    { "source": "唐娜·哈拉维", "target": "赛博格", "description": "提出" },
     { "source": "史蒂芬·沃尔夫勒姆", "target": "意识", "description": "定义：意识是一个「连贯线索的体验（coherent thread of experience）」" },
     { "source": "《你当我好骗吗》", "target": "雨果·梅西尔", "description": "作者" },
     { "source": "《科技想要什么》", "target": "凯文·凯利", "description": "作者" },
