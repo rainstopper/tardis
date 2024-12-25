@@ -60,6 +60,6 @@
     { "source": "《引爆点的报复》", "target": "超级传播者", "description": "提出" },
     { "source": "超级传播者", "target": "流行", "description": "引爆" },
     { "source": "《引爆点》", "target": "少数人法则", "description": "提出" },
-    { "source": "超级传播者", "target": "少数人法则", "description": "相当于" }
+    { "source": "超级传播者", "target": "少数人法则", "description": "流行的爆发，很多时候是少数超级传播者在起关键作用" }
   ]
 }
