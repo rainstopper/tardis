@@ -62,7 +62,8 @@
     { "name": "神经生物学无能模型", "description": "神经生物学无能模型（the neurobiological-incompetence model）是对青少年大脑无能的经典解释，因为大脑中的其他区域已经发育好了，但前额叶皮层还没发育好。" },
     { "name": "《行为》", "category": "书籍", "description": "《行为》（Behave: The Biology of Humans at Our Best and Worst）" },
     { "name": "罗伯特·萨波斯基", "category": "人物", "description": "罗伯特·萨波斯基（Robert M. Sapolsky）" },
-    { "name": "阿德里安娜·加尔万", "category": "人物", "description": "阿德里安娜·加尔万（Adriana Galván）" }
+    { "name": "阿德里安娜·加尔万", "category": "人物", "description": "阿德里安娜·加尔万（Adriana Galván）" },
+    { "name": "孩视", "description": "居高临下像看小孩一样看一个人，一般用于指对皇上" }
   ],
   "edges": [
     { "source": "《引爆点的报复》", "target": "临界点" },
