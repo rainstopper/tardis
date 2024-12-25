@@ -2,12 +2,14 @@
 title: 神奇的三分之一定律
 ---
 
-# 神奇的三分之一定律
-<Badge type="danger" text="种族歧视" />
-<Badge type="danger" text="性别歧视" />
+# 神奇的三分之一定律 <Badge type="danger" text="种族歧视" /> <Badge type="danger" text="性别歧视" />
 
-::: important 当一个群体中少数派的人数比例达到四分之一到三分之一，他们就会对群体的文化产生决定性的影响。
+::: important 当一个群体中少数派的占比达到四分之一到三分之一时，他们就会对群体的文化产生重大影响。
+
 由马尔科姆·格拉德威尔（Malcolm Gladwell）在《引爆点的报复：超故事、超级传播者与社会工程的兴起》（Revenge of the Tipping Point: Overstories, Superspreaders, and the Rise of Social Engineering）中提出。
+
+试想：有一个挺大的群体，有自身的文化。现在我们想引入一些外来者，通过他们改变这个文化，请问需要引进多少人？太少肯定不行，那只能算是个小众另类，对大局没有影响；特别多，当然整个局面都变了。那么从少到多，有没有一个具体的临界值，临界值是多少？答案是**三分之一**。
+
 :::
 
 ## 一、少数派会被符号化
