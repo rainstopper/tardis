@@ -78,7 +78,7 @@
     { "name": "强制者心态", "description": "强制者心态（Enforcer Mindset） = 高标准 + 低支持" },
     { "name": "成绩通胀", "description": "成绩通胀（GPA inflation）指学生获得好成绩的占比越来越大：\n<img src=\"https://piccdn2.umiwi.com/uploader/image/ddarticle/2024111119/1858994235928266664/111119.jpeg\" />" },
     { "name": "道格拉斯·麦格雷戈", "category": "人物", "description": "道格拉斯·麦格雷戈（Douglas McGregor，1906—1964），管理理论家" },
-    { "name": "X理论", "description": "X理论（Theory X）假设人性本恶，认为员工的天性都是自私和懒惰的，都想要推卸责任，工作纯粹是为了挣钱和稳定，对公司的事根本不上心，安于现状得过且过，没有创造性。" },
+    { "name": "X理论", "category": "规律", "description": "X理论（Theory X）假设人性本恶，认为员工的天性都是自私和懒惰的，都想要推卸责任，工作纯粹是为了挣钱和稳定，对公司的事根本不上心，安于现状得过且过，没有创造性。" },
     { "name": "杰克·韦尔奇", "category": "人物", "description": "杰克·韦尔奇（Jack Welch），通用电气CEO" },
     { "name": "通用电气", "category": "公司" },
     { "name": "活力曲线", "description": "活力曲线（vitality curve）：\n<img src=\"https://piccdn2.umiwi.com/uploader/image/ddarticle/2024111119/1858994438865458976/111119.png\" />" },
