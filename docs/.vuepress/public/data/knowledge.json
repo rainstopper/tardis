@@ -5,7 +5,9 @@
     { "name": "卡洛斯·佩雷斯", "category": "人物", "description": "卡洛斯·佩雷斯（Carlos E. Perez），深度学习研究者" },
     { "name": "贾扬清", "category": "人物", "description": "前阿里巴巴技术副总裁，AI科学家" },
     { "name": "阿里巴巴", "category": "公司" },
-    { "name": "缩放定律", "category": "规律", "description": "缩放定律（Scaling Law）指出，如果把模型的算力大小（包括运算次数、数据规模、参数个数）扩大多少倍，模型的智能水平会一直跟着扩大。\n<img src=\"https://piccdn2.umiwi.com/uploader/image/ddarticle/2024062121/1845738054518623916/062121.png\" />" },
+    { "name": "杨立昆", "category": "人物", "description": "杨立昆（Yann LeCun），图灵奖得主" },
+    { "name": "大语言模型", "category": "AI" },
+    { "name": "缩放定律", "category": "AI", "description": "缩放定律（Scaling Law）指出，如果把模型的算力大小（包括运算次数、数据规模、参数个数）扩大多少倍，模型的智能水平会一直跟着扩大。\n<img src=\"https://piccdn2.umiwi.com/uploader/image/ddarticle/2024062121/1845738054518623916/062121.png\" />" },
     { "name": "临界点", "description": "临界点（Tipping point）" },
     { "name": "《引爆点的报复》", "category": "书籍", "description": "《引爆点的报复：超故事、超级传播者与社会工程的兴起》（Revenge of the Tipping Point: Overstories, Superspreaders, and the Rise of Social Engineering）" },
     { "name": "马尔科姆·格拉德威尔", "category": "人物", "description": "马尔科姆·格拉德威尔（Malcolm Gladwell）" },
@@ -101,6 +103,7 @@
   "edges": [
     { "source": "卡洛斯·佩雷斯", "predicate": "定义", "target": "智能体", "description": "卡洛斯·佩雷斯对智能体AI的定义是：它们可以接收外部信息，自主采取行动而不必有人类在旁边控制，可以连续地跟外界互动。" },
     { "source": "贾扬清", "predicate": "曾任职于", "target": "阿里巴巴", "description": "贾扬清曾担任阿里巴巴技术副总裁" },
+    { "source": "杨立昆", "target": "大语言模型", "description": "杨立昆认为既然大语言模型都是“语言”模型，它们的智能就必然受到语料水平的限制：既然那些语料都属于人类，AI又怎么可能超过人类的水平呢？所以杨立昆认为AI的智能增长将会迅速陷入边际效益递减，达到某个上限之后就会停下来。" },
     { "source": "《引爆点的报复》", "target": "临界点" },
     { "source": "《引爆点的报复》", "predicate": "的作者是", "target": "马尔科姆·格拉德威尔" },
     { "source": "《引爆点》", "target": "临界点" },
