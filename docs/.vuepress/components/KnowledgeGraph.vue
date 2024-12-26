@@ -200,7 +200,7 @@ const props = defineProps({
       // 绿
       '#33ccae',
       // 橄榄
-      '#a2be30',
+      '#a7c728',
       // 黄
       '#fedca9',
       // 橘
