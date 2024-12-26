@@ -51,7 +51,7 @@ let instance = null
 
 const el = ref(null)
 
-const draw = () => {
+function draw() {
   if (el.value) {
     instance = echarts.init(el.value, '')
     instance.setOption(props.option)

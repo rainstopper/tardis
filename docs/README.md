@@ -3,9 +3,10 @@ home: true
 title: 首页
 ---
 
-<KnowledgeGraphAsync
-  title="知识图谱"
-  url="/data/knowledge.json"
-  height="500px"
-  :force="{ edgeLength: 30, repulsion: 50, gravity: 0.1 }"
-/>
+<div style="height: 60vh; min-height: 500px">
+  <KnowledgeGraphAsync
+    title="知识图谱"
+    url="/data/knowledge.json"
+    :force="{ edgeLength: 30, repulsion: 50, gravity: 0.1 }"
+  />
+</div>
