@@ -14,7 +14,6 @@
     { "name": "小区域变异", "category": "医学", "description": "小区域变异（small-area variation）的意思是距离很近的两个区域，医生对病人采用的治疗方法可能大不相同。" },
     { "name": "单一培育", "category": "生物学", "description": "单一培育（monoculture）" },
     { "name": "高效" },
-    { "name": "脆弱" },
     { "name": "吴冠军", "category": "人物" },
     { "name": "唐娜·哈拉维", "category": "人物", "description": "唐娜·哈拉维（Donna Haraway）" },
     { "name": "赛博格", "description": "赛博格（Cyborg）" },
@@ -75,7 +74,9 @@
     { "name": "保守主义", "category": "政治" },
     { "name": "自由主义", "category": "政治" },
     { "name": "高标准高支持理论", "description": "耶格尔提出，通过“标准”和“支持”两个维度，将教育和培养年轻人的心态划分为四种：\n高标准 + 高支持 = 导师心态（Mentor Mindset），我对你有很高的要求，同时我会给你提供很高的支持；\n高标准 + 低支持 = 强制者心态（Enforcer Mindset），有效但是伤害很大；\n低标准 + 高支持 = 守护者心态（Protector Mindset），相当于溺爱；\n低标准 + 低支持 = 冷漠心态（Apathetic Mindset）\n<img src=\"https://piccdn2.umiwi.com/uploader/image/ddarticle/2024111021/1858910061011716008/111021.jpeg\" />（这个理论没有一个具体的名字）" },
-    { "name": "导师心态", "description": "耶格尔提出对待年轻人的最佳态度是高标准高支持的导师心态。\n<img src=\"https://piccdn2.umiwi.com/uploader/image/ddarticle/2024111021/1858910815852238836/111021.png\" />" }
+    { "name": "导师心态", "description": "耶格尔提出对待年轻人的最佳态度是高标准高支持的导师心态。\n<img src=\"https://piccdn2.umiwi.com/uploader/image/ddarticle/2024111021/1858910815852238836/111021.png\" />" },
+    { "name": "强制者心态", "description": "强制者心态（Enforcer Mindset） = 高标准 + 低支持" },
+    { "name": "成绩通胀", "description": "成绩通胀（GPA inflation）指学生获得好成绩的占比越来越大：\n<img src=\"https://piccdn2.umiwi.com/uploader/image/ddarticle/2024111119/1858994235928266664/111119.jpeg\" />" }
   ],
   "edges": [
     { "source": "《引爆点的报复》", "target": "临界点" },
@@ -90,8 +91,7 @@
     { "source": "多样性", "predicate": "提供", "target": "复原力" },
     { "source": "超故事", "predicate": "引发", "target": "小区域变异" },
     { "source": "单一培育", "target": "高效" },
-    { "source": "单一培育", "target": "脆弱" },
-    { "source": "脆弱", "predicate": "相对于", "target": "反脆弱" },
+    { "source": "单一培育", "predicate": "相对于", "target": "反脆弱" },
     { "source": "唐娜·哈拉维", "predicate": "提出", "target": "赛博格" },
     { "source": "史蒂芬·沃尔夫勒姆", "predicate": "定义", "target": "意识", "description": "沃尔夫勒姆对意识的定义：意识是一个「连贯线索的体验（coherent thread of experience）」" },
     { "source": "《你当我好骗吗》", "predicate": "的作者是", "target": "雨果·梅西尔" },
@@ -142,6 +142,8 @@
     { "source": "模糊性容忍", "predicate": "的人更倾向于", "target": "自由主义", "description": "高认知需要、也就是高模糊性容忍的人，更倾向于自由主义，容易投票给民主党" },
     { "source": "大卫·耶格尔", "predicate": "提出", "target": "高标准高支持理论" },
     { "source": "导师心态", "predicate": "属于", "target": "高标准高支持理论" },
-    { "source": "智者的反馈", "predicate": "属于", "target": "导师心态" }
+    { "source": "智者的反馈", "predicate": "属于", "target": "导师心态" },
+    { "source": "强制者心态", "predicate": "属于", "target": "高标准高支持理论" },
+    { "source": "强制者心态", "predicate": "对抗", "target": "成绩通胀" }
   ]
 }
