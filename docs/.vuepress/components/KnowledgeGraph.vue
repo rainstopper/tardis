@@ -575,13 +575,13 @@ function handleKeywordBlur() {
     <div class="search-tool">
       <!-- 关键字 -->
       <div class="item">
-        <label>关键字</label>
+        <!-- <label>关键字</label> -->
         <div class="content">
           <div class="input" ref="select">
             <input
               type="text"
               :value="search.keyword"
-              placeholder="请输入..."
+              placeholder="输入关键字搜索..."
               @input="handleKeywordInput"
               @focus="search.showOptions = true"
               @blur="handleKeywordBlur"

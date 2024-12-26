@@ -16,7 +16,7 @@ const props = defineProps({
    * 加载数据的 url
    * @param {String}
    */
-  url: String,
+  url: [String, Array],
 })
 
 const nodes = ref([])
@@ -26,11 +26,15 @@ const edges = ref([])
 const loading = ref(false)
 
 onMounted(() => {
+  if (!props.url) {
+    return
+  }
+  const urls = Array.isArray(props.url) ? props.url : [props.url]
   // 加载知识图谱所需的数据
   loading.value = true
-  http.get(withBase(props.url)).then((res) => {
-    nodes.value = res.nodes || []
-    edges.value = res.edges || []
+  Promise.all(urls.map(item => http.get(withBase(item)))).then(res => {
+    nodes.value = res.reduce((arr, item) => [...arr, ...(item.nodes || [])], [])
+    edges.value = res.reduce((arr, item) => [...arr, ...(item.edges || [])], [])
   }).finally(() => {
     loading.value = false
   })
