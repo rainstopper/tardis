@@ -158,7 +158,7 @@
     { "source": "杰克·韦尔奇", "predicate": "任职于", "target": "通用电气", "description": "杰克·韦尔奇担任通用电气CEO" },
     { "source": "杰克·韦尔奇", "predicate": "信奉", "target": "X理论", "description": "韦尔奇是X理论的信奉者。\n他把员工按业绩分成ABC三个等级，规定A级拿的奖金比B级多两三倍，而C级不但没有奖金，而且可能被解雇。\n韦尔奇用铁腕手段在20多年的任期中解雇了十多万个员工，通用电气的股票一直在涨，人们把他视为典范。" },
     { "source": "杰克·韦尔奇", "predicate": "发明", "target": "活力曲线" },
-    { "source": "史蒂夫·鲍尔默", "predicate": "借鉴", "target": "活力曲线", "description": "史蒂夫·鲍尔默在微软搞了个堆叠排名（stack ranking），使用韦尔奇发明的活力曲线，把员工考评为上中下三等，规定得两次下等就等于辞退。" },
+    { "source": "史蒂夫·鲍尔默", "predicate": "借鉴", "target": "活力曲线", "description": "史蒂夫·鲍尔默在微软搞了个堆叠排名（stack ranking），使用韦尔奇发明的活力曲线，把员工考评为上中下三等，规定得两次下等就等于辞退。而且鲍尔默要求公司每个小部门都要有10%的员工被评为下等。" },
     { "source": "史蒂夫·鲍尔默", "predicate": "任职于", "target": "微软", "description": "史蒂夫·鲍尔默接替比尔·盖茨担任微软CEO" },
     { "source": "比尔·盖茨", "predicate": "曾任职于", "target": "微软", "description": "比尔·盖茨曾担任微软CEO" }
   ]
