@@ -462,7 +462,7 @@ const option = computed(() => ({
         // 附带链接的项目追加“点击查看详情”
         str += `${str.length && '<br/>' || ''}点击查看详情`
       }
-      return str
+      return '<div class="tooltip-inner">' + str + '</div>'
     },
   },
   series: [{
@@ -693,6 +693,11 @@ $LABEL_WIDTH: 60px;
         }
       }
     }
+  }
+
+  :deep(.tooltip-inner) {
+    max-width: 500px;
+    white-space: normal;
   }
 }
 </style>
