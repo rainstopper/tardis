@@ -5,6 +5,7 @@
     { "name": "卡洛斯·佩雷斯", "category": "人物", "description": "卡洛斯·佩雷斯（Carlos E. Perez），深度学习研究者" },
     { "name": "贾扬清", "category": "人物", "description": "前阿里巴巴技术副总裁，AI科学家" },
     { "name": "阿里巴巴", "category": "公司" },
+    { "name": "缩放定律", "category": "规律", "description": "缩放定律（Scaling Law）指出，如果把模型的算力大小（包括运算次数、数据规模、参数个数）扩大多少倍，模型的智能水平会一直跟着扩大。\n<img src=\"https://piccdn2.umiwi.com/uploader/image/ddarticle/2024062121/1845738054518623916/062121.png\" />" },
     { "name": "临界点", "description": "临界点（Tipping point）" },
     { "name": "《引爆点的报复》", "category": "书籍", "description": "《引爆点的报复：超故事、超级传播者与社会工程的兴起》（Revenge of the Tipping Point: Overstories, Superspreaders, and the Rise of Social Engineering）" },
     { "name": "马尔科姆·格拉德威尔", "category": "人物", "description": "马尔科姆·格拉德威尔（Malcolm Gladwell）" },
