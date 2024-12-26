@@ -7,5 +7,5 @@ title: 首页
   title="知识图谱"
   url="/data/knowledge.json"
   height="500px"
-  :force="{ edgeLength: 30, repulsion: 50, gravity: 0.1 }"
+  :force="{ edgeLength: 30, repulsion: 40, gravity: 0.1 }"
 />
