@@ -76,7 +76,9 @@
     { "name": "高标准高支持理论", "description": "耶格尔提出，通过“标准”和“支持”两个维度，将教育和培养年轻人的心态划分为四种：\n高标准 + 高支持 = 导师心态（Mentor Mindset），我对你有很高的要求，同时我会给你提供很高的支持；\n高标准 + 低支持 = 强制者心态（Enforcer Mindset），有效但是伤害很大；\n低标准 + 高支持 = 守护者心态（Protector Mindset），相当于溺爱；\n低标准 + 低支持 = 冷漠心态（Apathetic Mindset）\n<img src=\"https://piccdn2.umiwi.com/uploader/image/ddarticle/2024111021/1858910061011716008/111021.jpeg\" />（这个理论没有一个具体的名字）" },
     { "name": "导师心态", "description": "耶格尔提出对待年轻人的最佳态度是高标准高支持的导师心态。\n<img src=\"https://piccdn2.umiwi.com/uploader/image/ddarticle/2024111021/1858910815852238836/111021.png\" />" },
     { "name": "强制者心态", "description": "强制者心态（Enforcer Mindset） = 高标准 + 低支持" },
-    { "name": "成绩通胀", "description": "成绩通胀（GPA inflation）指学生获得好成绩的占比越来越大：\n<img src=\"https://piccdn2.umiwi.com/uploader/image/ddarticle/2024111119/1858994235928266664/111119.jpeg\" />" }
+    { "name": "成绩通胀", "description": "成绩通胀（GPA inflation）指学生获得好成绩的占比越来越大：\n<img src=\"https://piccdn2.umiwi.com/uploader/image/ddarticle/2024111119/1858994235928266664/111119.jpeg\" />" },
+    { "name": "道格拉斯·麦格雷戈", "category": "人物", "description": "道格拉斯·麦格雷戈（Douglas McGregor，1906—1964），管理理论家" },
+    { "name": "X理论", "description": "X理论（Theory X）假设人性本恶，认为员工的天性都是自私和懒惰的，都想要推卸责任，工作纯粹是为了挣钱和稳定，对公司的事根本不上心，安于现状得过且过，没有创造性。" }
   ],
   "edges": [
     { "source": "《引爆点的报复》", "target": "临界点" },
@@ -144,6 +146,8 @@
     { "source": "导师心态", "predicate": "属于", "target": "高标准高支持理论" },
     { "source": "智者的反馈", "predicate": "属于", "target": "导师心态" },
     { "source": "强制者心态", "predicate": "属于", "target": "高标准高支持理论" },
-    { "source": "强制者心态", "predicate": "对抗", "target": "成绩通胀" }
+    { "source": "强制者心态", "predicate": "对抗", "target": "成绩通胀" },
+    { "source": "道格拉斯·麦格雷戈", "predicate": "提出", "target": "X理论" },
+    { "source": "X理论", "predicate": "符合", "target": "强制者心态" }
   ]
 }
