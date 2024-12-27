@@ -7,6 +7,6 @@ title: 首页
   <KnowledgeGraphAsync
     title="知识图谱"
     url="/data/knowledge.json"
-    :force="{ edgeLength: 30, repulsion: 40, gravity: 0.1 }"
+    :force="{ edgeLength: 30, repulsion: 30, gravity: 0.1 }"
   />
 </div>
