@@ -16,6 +16,12 @@ export default defineUserConfig({
 
     navbar: [
       '/',
+      {
+        text: '学习',
+        children: [
+          { text: '系统架构设计师', link: '/posts/system-architecture-designer/' },
+        ],
+      },
     ],
   }),
 
