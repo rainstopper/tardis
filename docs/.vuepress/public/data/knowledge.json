@@ -112,7 +112,10 @@
     { "name": "压力反应", "description": "压力反应（stress response）" },
     { "name": "挑战反应", "description": "对压力源表现出积极反应" },
     { "name": "威胁反应", "description": "对压力源表现出消极反应" },
-    { "name": "协同心态", "description": "协同心态（Synergistic Mindsets）是一套标准化压力应对协议。\n它要求在压力场合向人传达两个思维模式 —— “成长思维模式”和“相信压力会增强表现”。\n<img src=\"https://piccdn2.umiwi.com/uploader/image/ddarticle/2024111721/1859561274690576304/111721.png\" />" }
+    { "name": "协同心态", "description": "协同心态（Synergistic Mindsets）是一套标准化压力应对协议。\n它要求在压力场合向人传达两个思维模式 —— “成长思维模式”和“相信压力会增强表现”。\n<img src=\"https://piccdn2.umiwi.com/uploader/image/ddarticle/2024111721/1859561274690576304/111721.png\" />" },
+    { "name": "远征学习", "description": "远征学习（Expeditionary Learning，简称 EL）" },
+    { "name": "外展训练", "description": "外展训练（Outward Bound program）" },
+    { "name": "库尔特·哈恩", "description": "库尔特·哈恩（Kurt Hahn）" }
   ],
   "edges": [
     { "source": "内部驱动", "predicate": "相对于", "target": "外部驱动" },
@@ -218,6 +221,10 @@
     { "source": "大卫·耶格尔", "predicate": "等人提出", "target": "协同心态" },
     { "source": "协同心态", "target": "挑战反应", "description": "协同心态要求在压力场合向人传达“相信压力会增强表现”。" },
     { "source": "协同心态", "predicate": "还需要传达", "target": "成长思维模式" },
-    { "source": "协同心态", "target": "压力源", "description": "研究表明，只要二三十分钟的协同心态干预，就能大大提高受试者在压力面前的表现。特别是贫困地区的落后学生，接受干预之后五天内的皮质醇水平都比平时低，幸福感都比平时高；他们在一年后的考试及格率都比对照组高。" }
+    { "source": "协同心态", "target": "压力源", "description": "研究表明，只要二三十分钟的协同心态干预，就能大大提高受试者在压力面前的表现。特别是贫困地区的落后学生，接受干预之后五天内的皮质醇水平都比平时低，幸福感都比平时高；他们在一年后的考试及格率都比对照组高。" },
+    { "source": "《10到25岁》", "predicate": "提及", "target": "远征学习" },
+    { "source": "远征学习", "predicate": "源自", "target": "外展训练" },
+    { "source": "外展训练", "predicate": "的创始人是", "target": "库尔特·哈恩", "description": "库尔特·哈恩主张对学生搞说服和强迫都不如用使命感吸引，认为最有效的办法就是告诉学生：你是被需要的。" },
+    { "source": "外展训练", "target": "内部驱动", "description": "外展训练专门培养学生做大事和钻研难题的内驱力。" }
   ]
 }
