@@ -102,7 +102,8 @@
     { "name": "透明度声明", "description": "透明度声明（transparency statement）指与人开启对话时直接透明地表达自己的意图。\n耶格尔说，只要局面符合以下两个条件，透明度声明就至关重要：\n1. 双方权力不对称；\n2. 曾经有过冲突或者错误对待的历史。\n透明度声明只需要满足三个简单的要求：\n第一是要迅速，一上来先说，不要聊三分钟再说；\n第二是善意，强化好的意图；\n第三是具体：不要抽象地说“我们警察需要跟市民聊天”，要说自己，说“我今天是来跟你聊天的”。" },
     { "name": "能引发回应的真实问题", "description": "能引发回应的真实问题（an authentic question with uptake）" },
     { "name": "镜像法", "description": "镜像法（mirroring）是个体温技巧：对方每回答一个问题，你就直接重复他那句话的最后三个单词，加一个问号。" },
-    { "name": "麦克阿瑟阶梯量表", "description": "麦克阿瑟阶梯量表（MacArthur Ladder Scale）" }
+    { "name": "麦克阿瑟阶梯量表", "description": "麦克阿瑟阶梯量表（MacArthur Ladder Scale）用一个梯子评估一个人所处的社会层级。\n<img src=\"https://piccdn2.umiwi.com/uploader/image/ddarticle/2024111418/1859269199734579120/111418.png\" />" },
+    { "name": "掌控感", "description": "掌控感（Sense of Control）" }
   ],
   "edges": [
     { "source": "卡洛斯·佩雷斯", "predicate": "定义", "target": "智能体", "description": "卡洛斯·佩雷斯对智能体AI的定义是：它们可以接收外部信息，自主采取行动而不必有人类在旁边控制，可以连续地跟外界互动。" },
