@@ -109,7 +109,8 @@
     { "name": "压力源", "description": "压力源（stressor）" },
     { "name": "压力反应", "description": "压力反应（stress response）" },
     { "name": "挑战反应", "description": "对压力源表现出积极反应" },
-    { "name": "威胁反应", "description": "对压力源表现出消极反应" }
+    { "name": "威胁反应", "description": "对压力源表现出消极反应" },
+    { "name": "协同心态", "description": "协同心态（Synergistic Mindsets）是一套标准化压力应对协议。\n它要求在压力场合向人传达两个思维模式 —— “成长思维模式”和“相信压力会增强表现”。\n<img src=\"https://piccdn2.umiwi.com/uploader/image/ddarticle/2024111721/1859561274690576304/111721.png\" />" }
   ],
   "edges": [
     { "source": "卡洛斯·佩雷斯", "predicate": "定义", "target": "智能体", "description": "卡洛斯·佩雷斯对智能体AI的定义是：它们可以接收外部信息，自主采取行动而不必有人类在旁边控制，可以连续地跟外界互动。" },
@@ -210,6 +211,10 @@
     { "source": "挑战反应", "predicate": "是一种", "target": "压力反应", "description": "如果你评估认为拥有的资源足以应对这个压力源的要求，你就会进入积极模式，出现挑战反应。" },
     { "source": "威胁反应", "predicate": "是一种", "target": "压力反应", "description": "如果你评估认为拥有的资源不足以应对压力源的要求，你就会进入消极模式，出现威胁反应。" },
     { "source": "挑战反应", "predicate": "相对于", "target": "威胁反应", "description": "两种反应对身体的影响截然不同：\n<img src=\"https://piccdn2.umiwi.com/uploader/image/ddarticle/2024111722/1859562759675489684/111722.jpeg\" />" },
-    { "source": "挑战反应", "target": "导师心态", "description": "导师不应该降低标准，所以要求还是那个要求；关键在于如何评估有多少资源。\n好导师如果发现学生遭遇压力事件，可以多给点资源 —— 而不是把那个压力源给取消。" }
+    { "source": "挑战反应", "target": "导师心态", "description": "导师不应该降低标准，所以要求还是那个要求；关键在于如何评估有多少资源。\n好导师如果发现学生遭遇压力事件，可以多给点资源 —— 而不是把那个压力源给取消。\n如果你想培养人才，你不应该给他减轻压力，你应该多挑战他 —— 但前提是给足够的支持，让他有资源。" },
+    { "source": "大卫·耶格尔", "predicate": "等人提出", "target": "协同心态" },
+    { "source": "协同心态", "target": "挑战反应", "description": "协同心态要求在压力场合向人传达“相信压力会增强表现”。" },
+    { "source": "协同心态", "predicate": "还需要传达", "target": "成长思维模式" },
+    { "source": "协同心态", "target": "压力源", "description": "研究表明，只要二三十分钟的协同心态干预，就能大大提高受试者在压力面前的表现。特别是贫困地区的落后学生，接受干预之后五天内的皮质醇水平都比平时低，幸福感都比平时高；他们在一年后的考试及格率都比对照组高。" }
   ]
 }
