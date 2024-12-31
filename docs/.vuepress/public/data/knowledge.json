@@ -1,6 +1,8 @@
 {
   "nodes": [
     { "name": "喜欢=熟悉+意外", "category": "规律" },
+    { "name": "内部驱动" },
+    { "name": "外部驱动" },
     { "name": "智能体", "category": "AI", "description": "智能体（Agent）\n<img src=\"https://piccdn2.umiwi.com/uploader/image/ddarticle/2024062112/1845703240588250796/062112.png\" />" },
     { "name": "卡洛斯·佩雷斯", "category": "人物", "description": "卡洛斯·佩雷斯（Carlos E. Perez），深度学习研究者" },
     { "name": "贾扬清", "category": "人物", "description": "前阿里巴巴技术副总裁，AI科学家" },
@@ -113,6 +115,7 @@
     { "name": "协同心态", "description": "协同心态（Synergistic Mindsets）是一套标准化压力应对协议。\n它要求在压力场合向人传达两个思维模式 —— “成长思维模式”和“相信压力会增强表现”。\n<img src=\"https://piccdn2.umiwi.com/uploader/image/ddarticle/2024111721/1859561274690576304/111721.png\" />" }
   ],
   "edges": [
+    { "source": "内部驱动", "predicate": "相对于", "target": "外部驱动" },
     { "source": "卡洛斯·佩雷斯", "predicate": "定义", "target": "智能体", "description": "卡洛斯·佩雷斯对智能体AI的定义是：它们可以接收外部信息，自主采取行动而不必有人类在旁边控制，可以连续地跟外界互动。" },
     { "source": "贾扬清", "predicate": "曾任职于", "target": "阿里巴巴", "description": "贾扬清曾担任阿里巴巴技术副总裁" },
     { "source": "杨立昆", "target": "大语言模型", "description": "杨立昆认为既然大语言模型都是“语言”模型，它们的智能就必然受到语料水平的限制：既然那些语料都属于人类，AI又怎么可能超过人类的水平呢？所以杨立昆认为AI的智能增长将会迅速陷入边际效益递减，达到某个上限之后就会停下来。" },
