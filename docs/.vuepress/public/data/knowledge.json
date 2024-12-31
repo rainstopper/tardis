@@ -124,7 +124,9 @@
     { "name": "冒充者综合征", "description": "冒充者综合征（imposter syndrome）患者会认为自己是异类。\n<img src=\"https://piccdn2.umiwi.com/uploader/image/ddarticle/2024111918/1859733612401576780/111918.png\" />" },
     { "name": "归属感" },
     { "name": "校园霸凌", "description": "在同学中受欢迎程度和霸凌行为的关系是：\n<img src=\"https://piccdn2.umiwi.com/uploader/image/ddarticle/2024111918/1859733703668845388/111918.jpeg\" />\n地位低、不受欢迎的孩子不会去霸凌别人，他们是被霸凌的对象；地位特别高的学生也不会霸凌，因为他们无需证明自己。霸凌者是那些比较受欢迎、但又不是最受欢迎的人。他们想进一步提高自己的地位，同时又有一种不安全感，总想证明自己，所以才会用打压、嘲笑、孤立地位比自己低的同学来自我标榜。" },
-    { "name": "丹尼尔·拉普斯利", "description": "丹尼尔·拉普斯利（Daniel Lapsley），心理学教授" }
+    { "name": "丹尼尔·拉普斯利", "description": "丹尼尔·拉普斯利（Daniel Lapsley），心理学教授" },
+    { "name": "治疗师难题", "description": "治疗师难题（The therapist's problem），就好像心理咨询一样，你跟他聊的那一两个小时之内，他状态挺好精神抖擞，可是一回去又恢复到抑郁状态。" },
+    { "name": "淡出效应", "description": "淡出效应（Fade-out effect）是指社会干预项目常常只在短期很有效，长期效果会逐渐淡化。" }
   ],
   "edges": [
     { "source": "内部驱动", "predicate": "相对于", "target": "外部驱动" },
@@ -248,6 +250,7 @@
     { "source": "大卫·耶格尔", "target": "归属感", "description": "耶格尔说，建立归属感最关键的因素，是你得相信改变和改进的可能性。\n<img src=\"https://piccdn2.umiwi.com/uploader/image/ddarticle/2024111918/1859733730512383380/111918.png\" />\n耶格尔等人的干预让学生进入一个正反馈循环 ——\n<img src=\"https://piccdn2.umiwi.com/uploader/image/ddarticle/2024111918/1859733755208474544/111918.png\" />" },
     { "source": "归属感", "target": "导师心态", "description": "要培养一个人，就得先让他感到是“自己人”才好。" },
     { "source": "大卫·耶格尔", "predicate": "提出", "target": "导师心态" },
-    { "source": "大卫·耶格尔", "predicate": "的导师是", "target": "丹尼尔·拉普斯利" }
+    { "source": "大卫·耶格尔", "predicate": "的导师是", "target": "丹尼尔·拉普斯利" },
+    { "source": "治疗师难题", "target": "淡出效应" }
   ]
 }
