@@ -245,6 +245,7 @@
     { "source": "冒充者综合征", "predicate": "缺乏", "target": "归属感", "description": "冒充者综合征患者没有归属感，容易陷入这样的恶性循环：\n<img src=\"https://piccdn2.umiwi.com/uploader/image/ddarticle/2024111918/1859733644613037460/111918.jpeg\" />" },
     { "source": "校园霸凌", "target": "归属感", "description": "被霸凌的孩子缺乏归属感" },
     { "source": "大卫·耶格尔", "target": "归属感", "description": "耶格尔说，建立归属感最关键的因素，是你得相信改变和改进的可能性。\n<img src=\"https://piccdn2.umiwi.com/uploader/image/ddarticle/2024111918/1859733730512383380/111918.png\" />\n耶格尔等人的干预让学生进入一个正反馈循环 ——\n<img src=\"https://piccdn2.umiwi.com/uploader/image/ddarticle/2024111918/1859733755208474544/111918.png\" />" },
-    { "source": "归属感", "target": "导师心态", "description": "要培养一个人，就得先让他感到是“自己人”才好。" }
+    { "source": "归属感", "target": "导师心态", "description": "要培养一个人，就得先让他感到是“自己人”才好。" },
+    { "source": "大卫·耶格尔", "predicate": "提出", "target": "导师心态" }
   ]
 }
