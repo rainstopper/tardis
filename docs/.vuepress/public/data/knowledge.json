@@ -209,6 +209,7 @@
     { "source": "压力反应", "target": "压力源", "description": "决定压力反应的，是你对压力源的评估。\n你会评估压力源对你提出多大的要求，以及你手里有多少资源。\n<img src=\"https://piccdn2.umiwi.com/uploader/image/ddarticle/2024111721/1859561729957088076/111721.jpeg\" />" },
     { "source": "挑战反应", "predicate": "是一种", "target": "压力反应", "description": "如果你评估认为拥有的资源足以应对这个压力源的要求，你就会进入积极模式，出现挑战反应。" },
     { "source": "威胁反应", "predicate": "是一种", "target": "压力反应", "description": "如果你评估认为拥有的资源不足以应对压力源的要求，你就会进入消极模式，出现威胁反应。" },
-    { "source": "挑战反应", "predicate": "相对于", "target": "威胁反应", "description": "两种反应对身体的影响截然不同：\n<img src=\"https://piccdn2.umiwi.com/uploader/image/ddarticle/2024111722/1859562759675489684/111722.jpeg\" />" }
+    { "source": "挑战反应", "predicate": "相对于", "target": "威胁反应", "description": "两种反应对身体的影响截然不同：\n<img src=\"https://piccdn2.umiwi.com/uploader/image/ddarticle/2024111722/1859562759675489684/111722.jpeg\" />" },
+    { "source": "挑战反应", "target": "导师心态", "description": "导师不应该降低标准，所以要求还是那个要求；关键在于如何评估有多少资源。\n好导师如果发现学生遭遇压力事件，可以多给点资源 —— 而不是把那个压力源给取消。" }
   ]
 }
