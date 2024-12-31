@@ -122,7 +122,8 @@
     { "name": "自闭症" },
     { "name": "排他性卓越", "description": "排他性卓越（Exclusive Excellence）" },
     { "name": "冒充者综合征", "description": "冒充者综合征（imposter syndrome）患者会认为自己是异类。\n<img src=\"https://piccdn2.umiwi.com/uploader/image/ddarticle/2024111918/1859733612401576780/111918.png\" />" },
-    { "name": "归属感" }
+    { "name": "归属感" },
+    { "name": "校园霸凌", "description": "在同学中受欢迎程度和霸凌行为的关系是：\n<img src=\"https://piccdn2.umiwi.com/uploader/image/ddarticle/2024111918/1859733703668845388/111918.jpeg\" />\n地位低、不受欢迎的孩子不会去霸凌别人，他们是被霸凌的对象；地位特别高的学生也不会霸凌，因为他们无需证明自己。霸凌者是那些比较受欢迎、但又不是最受欢迎的人。他们想进一步提高自己的地位，同时又有一种不安全感，总想证明自己，所以才会用打压、嘲笑、孤立地位比自己低的同学来自我标榜。" }
   ],
   "edges": [
     { "source": "内部驱动", "predicate": "相对于", "target": "外部驱动" },
@@ -241,6 +242,7 @@
     { "source": "包容性卓越", "target": "导师心态", "description": "包容性卓越假定人才应该不拘一格，不是拿几个标准就能识别的，我们应该设法让所有人都有机会展示才能。" },
     { "source": "排他性卓越", "predicate": "相对于", "target": "包容性卓越" },
     { "source": "排他性卓越", "target": "强制者心态", "description": "强制者心态喜欢搞，也就是我设定严格标准，没达到标准的自动淘汰，反正成功只属于少数人。" },
-    { "source": "冒充者综合征", "predicate": "缺乏", "target": "归属感", "description": "冒充者综合征患者没有归属感，容易陷入这样的恶性循环：\n<img src=\"https://piccdn2.umiwi.com/uploader/image/ddarticle/2024111918/1859733644613037460/111918.jpeg\" />" }
+    { "source": "冒充者综合征", "predicate": "缺乏", "target": "归属感", "description": "冒充者综合征患者没有归属感，容易陷入这样的恶性循环：\n<img src=\"https://piccdn2.umiwi.com/uploader/image/ddarticle/2024111918/1859733644613037460/111918.jpeg\" />" },
+    { "source": "校园霸凌", "target": "归属感", "description": "被霸凌的孩子缺乏归属感" }
   ]
 }
