@@ -9,7 +9,7 @@ export default defineUserConfig({
   lang: 'zh-CN',
 
   title: 'TARDIS',
-  description: '输入关键字搜索...',
+  description: '大方向功利主义的知识库',
 
   theme: defaultTheme({
     // logo: 'https://vuejs.press/images/hero.png',
