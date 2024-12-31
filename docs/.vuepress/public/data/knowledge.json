@@ -105,7 +105,9 @@
     { "name": "社会阶层" },
     { "name": "信任" },
     { "name": "麦克阿瑟阶梯量表", "description": "麦克阿瑟阶梯量表（MacArthur Ladder Scale）用一个梯子评估一个人所处的社会阶层。\n<img src=\"https://piccdn2.umiwi.com/uploader/image/ddarticle/2024111418/1859269199734579120/111418.png\" />" },
-    { "name": "掌控感", "description": "掌控感（Sense of Control）" }
+    { "name": "掌控感", "description": "掌控感（Sense of Control）" },
+    { "name": "压力源", "description": "压力源（stressor）" },
+    { "name": "压力反应", "description": "压力反应（stress response）" }
   ],
   "edges": [
     { "source": "卡洛斯·佩雷斯", "predicate": "定义", "target": "智能体", "description": "卡洛斯·佩雷斯对智能体AI的定义是：它们可以接收外部信息，自主采取行动而不必有人类在旁边控制，可以连续地跟外界互动。" },
@@ -201,6 +203,7 @@
     { "source": "导师心态", "target": "《10到25岁》", "description": "《10到25岁》一书的核心要点是导师心态" },
     { "source": "社会阶层", "target": "掌控感", "description": "掌控感起到了从高社会等级到高信任之间的中介作用。\n因为一个人条件好，他的掌控感强，进而自信，所以不担心别人会威胁，也更愿意相信他人。\n<img src=\"https://piccdn2.umiwi.com/uploader/image/ddarticle/2024111418/1859269677549690800/111418.jpeg\" />" },
     { "source": "麦克阿瑟阶梯量表", "predicate": "可用来评估一个人的", "target": "社会阶层" },
-    { "source": "掌控感", "target": "信任" }
+    { "source": "掌控感", "target": "信任" },
+    { "source": "压力反应", "target": "压力源", "description": "决定压力反应的，是你对压力源的评估。\n你会评估压力源对你提出多大的要求，以及你手里有多少资源。\n<img src=\"https://piccdn2.umiwi.com/uploader/image/ddarticle/2024111721/1859561729957088076/111721.jpeg\" />" }
   ]
 }
