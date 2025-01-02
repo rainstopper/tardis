@@ -133,7 +133,7 @@
     { "name": "莱特定律", "description": "莱特定律（Wright's Law）" },
     { "name": "自我决定理论", "description": "自我决定理论（Self-Determination Theory, STD）" },
     { "name": "《人类新史》", "category": "书籍", "description": "《人类新史》（The Dawn of Everything）" },
-    { "name": "大卫·格雷伯", "category": "人物", "description": "人类学家大卫·格雷伯（David Graeber）" },
+    { "name": "大卫·格雷伯", "category": "人物", "description": "人类学家大卫·格雷伯（David Graeber）曾经是耶鲁大学教授，后来因为参与了占领华尔街运动而被耶鲁开除，去了伦敦大学。他在2020年9月因为感染新冠导致的并发症去世。" },
     { "name": "大卫·温格罗", "category": "人物", "description": "考古学家大卫·温格罗（David Wengrow）" }
   ],
   "edges": [
