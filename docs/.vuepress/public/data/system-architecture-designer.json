@@ -21,7 +21,8 @@
     { "name": "Whitespace分词器" },
     { "name": "Keyword分词器" },
     { "name": "RESTful" },
-    { "name": "质量属性效用树" }
+    { "name": "质量属性效用树" },
+    { "name": "MTTR" }
   ],
   "edges": [
     { "source": "系统架构设计师", "target": "项目开发", "description": "系统架构设计师是项目开发活动中的关键角色之一。" },
