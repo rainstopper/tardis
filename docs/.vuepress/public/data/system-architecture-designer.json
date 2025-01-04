@@ -33,6 +33,6 @@
     { "source": "Elasticsearch Whitespace Analyzer", "target": "Elasticsearch Analyzer" },
     { "source": "Elasticsearch Keyword Analyzer", "target": "Elasticsearch Analyzer" },
     { "source": "RESTful", "target": "HTTP Method" },
-    { "source": "HTTP Method", "target": "HTTP" }
+    { "source": "HTTP Method", "target": "HTTP协议" }
   ]
 }
