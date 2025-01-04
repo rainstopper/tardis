@@ -2,13 +2,15 @@
   "nodes": [
     { "name": "系统架构设计师", "description": "System Architecture Designer" },
     { "name": "项目开发", "description": "项目开发活动" },
-    { "name": "传输层协议" },
-    { "name": "TCP协议" },
-    { "name": "UDP协议" }
+    { "name": "OSI参考模型", "category": "网络", "description": "OSI（Open System Interconnect，开放式系统互联）参考模型是ISO组织在1985年研究的网络互连模型。\n该体系结构标准定义了网络互连的七层框架（物理层、数据链路层、网络层、传输层、会话层、表示层和应用层）。" },
+    { "name": "传输层", "category": "网络" },
+    { "name": "TCP协议", "category": "网络" },
+    { "name": "UDP协议", "category": "网络" }
   ],
   "edges": [
     { "source": "系统架构设计师", "target": "项目开发", "description": "系统架构设计师是项目开发活动中的关键角色之一。" },
-    { "source": "TCP协议", "predicate": "属于", "target": "传输层协议" },
-    { "source": "UDP协议", "predicate": "属于", "target": "传输层协议" }
+    { "source": "传输层", "target": "OSI参考模型" },
+    { "source": "TCP协议", "target": "传输层" },
+    { "source": "UDP协议", "target": "传输层" }
   ]
 }
