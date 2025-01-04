@@ -10,7 +10,7 @@
     { "name": "FTP协议", "category": "网络" },
     { "name": "SMTP协议", "category": "网络" },
     { "name": "HTTP协议", "category": "网络" },
-    { "name": "HTTP Method", "category": "网络" },
+    { "name": "HTTP方法", "category": "网络" },
     { "name": "ROS", "category": "嵌入式", "description": "ROS（Robot Operating System，机器人操作系统）" },
     { "name": "ROS1", "category": "嵌入式" },
     { "name": "ROS2", "category": "嵌入式" },
@@ -32,7 +32,7 @@
     { "source": "Simple分词器", "target": "Elasticsearch分词器" },
     { "source": "Whitespace分词器", "target": "Elasticsearch分词器" },
     { "source": "Keyword分词器", "target": "Elasticsearch分词器" },
-    { "source": "RESTful", "target": "HTTP Method" },
-    { "source": "HTTP Method", "target": "HTTP协议" }
+    { "source": "RESTful", "target": "HTTP方法" },
+    { "source": "HTTP方法", "target": "HTTP协议" }
   ]
 }
