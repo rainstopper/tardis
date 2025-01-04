@@ -14,11 +14,11 @@
     { "name": "ROS", "category": "嵌入式", "description": "ROS（Robot Operating System，机器人操作系统）" },
     { "name": "ROS1", "category": "嵌入式" },
     { "name": "ROS2", "category": "嵌入式" },
-    { "name": "Elasticsearch Analyzer", "description": "Elasticsearch 分词器" },
-    { "name": "Elasticsearch Standard Analyzer" },
-    { "name": "Elasticsearch Simple Analyzer" },
-    { "name": "Elasticsearch Whitespace Analyzer" },
-    { "name": "Elasticsearch Keyword Analyzer" },
+    { "name": "Elasticsearch分词器", "description": "Elasticsearch 分词器" },
+    { "name": "Standard分词器" },
+    { "name": "Simple分词器" },
+    { "name": "Whitespace分词器" },
+    { "name": "Keyword分词器" },
     { "name": "RESTful" }
   ],
   "edges": [
@@ -28,10 +28,10 @@
     { "source": "UDP协议", "target": "传输层" },
     { "source": "ROS1", "target": "ROS" },
     { "source": "ROS2", "target": "ROS" },
-    { "source": "Elasticsearch Standard Analyzer", "target": "Elasticsearch Analyzer" },
-    { "source": "Elasticsearch Simple Analyzer", "target": "Elasticsearch Analyzer" },
-    { "source": "Elasticsearch Whitespace Analyzer", "target": "Elasticsearch Analyzer" },
-    { "source": "Elasticsearch Keyword Analyzer", "target": "Elasticsearch Analyzer" },
+    { "source": "Standard分词器", "target": "Elasticsearch分词器" },
+    { "source": "Simple分词器", "target": "Elasticsearch分词器" },
+    { "source": "Whitespace分词器", "target": "Elasticsearch分词器" },
+    { "source": "Keyword分词器", "target": "Elasticsearch分词器" },
     { "source": "RESTful", "target": "HTTP Method" },
     { "source": "HTTP Method", "target": "HTTP协议" }
   ]
