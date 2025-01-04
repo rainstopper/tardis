@@ -11,7 +11,12 @@
     { "name": "SMTP协议", "category": "网络" },
     { "name": "ROS", "category": "嵌入式", "description": "ROS（Robot Operating System，机器人操作系统）" },
     { "name": "ROS1", "category": "嵌入式" },
-    { "name": "ROS2", "category": "嵌入式" }
+    { "name": "ROS2", "category": "嵌入式" },
+    { "name": "Elasticsearch Analyzer", "description": "Elasticsearch 分词器" },
+    { "name": "Elasticsearch Standard Analyzer" },
+    { "name": "Elasticsearch Simple Analyzer" },
+    { "name": "Elasticsearch Whitespace Analyzer" },
+    { "name": "Elasticsearch Keyword Analyzer" }
   ],
   "edges": [
     { "source": "系统架构设计师", "target": "项目开发", "description": "系统架构设计师是项目开发活动中的关键角色之一。" },
@@ -19,6 +24,10 @@
     { "source": "TCP协议", "target": "传输层" },
     { "source": "UDP协议", "target": "传输层" },
     { "source": "ROS1", "target": "ROS" },
-    { "source": "ROS2", "target": "ROS" }
+    { "source": "ROS2", "target": "ROS" },
+    { "source": "Elasticsearch Standard Analyzer", "target": "Elasticsearch Analyzer" },
+    { "source": "Elasticsearch Simple Analyzer", "target": "Elasticsearch Analyzer" },
+    { "source": "Elasticsearch Whitespace Analyzer", "target": "Elasticsearch Analyzer" },
+    { "source": "Elasticsearch Keyword Analyzer", "target": "Elasticsearch Analyzer" }
   ]
 }
