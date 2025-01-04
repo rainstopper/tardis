@@ -1,9 +1,14 @@
 {
   "nodes": [
     { "name": "系统架构设计师", "description": "System Architecture Designer" },
-    { "name": "项目开发", "description": "项目开发活动" }
+    { "name": "项目开发", "description": "项目开发活动" },
+    { "name": '传输层协议" },
+    { "name": "TCP协议" },
+    { "name": "UDP协议" }
   ],
   "edges": [
-    { "source": "系统架构设计师", "target": "项目开发", "description": "系统架构设计师是项目开发活动中的关键角色之一。" }
+    { "source": "系统架构设计师", "target": "项目开发", "description": "系统架构设计师是项目开发活动中的关键角色之一。" },
+    { "source": "TCP协议", "predicate": "属于", "target": "传输层协议" },
+    { "source": "UDP协议", "predicate": "属于", "target": "传输层协议" }
   ]
 }
