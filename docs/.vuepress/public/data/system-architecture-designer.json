@@ -48,6 +48,6 @@
     { "source": "事件驱动架构", "target": "软件架构" },
     { "source": "微核架构", "target": "软件架构" },
     { "source": "微服务架构", "target": "软件架构" },
-    { "source": "云架构", "target": "软件架构" },
+    { "source": "云架构", "target": "软件架构" }
   ]
 }
