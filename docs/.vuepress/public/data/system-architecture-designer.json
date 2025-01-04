@@ -9,6 +9,8 @@
     { "name": "IP协议", "category": "网络" },
     { "name": "FTP协议", "category": "网络" },
     { "name": "SMTP协议", "category": "网络" },
+    { "name": "HTTP协议", "category": "网络" },
+    { "name": "HTTP Method", "category": "网络" },
     { "name": "ROS", "category": "嵌入式", "description": "ROS（Robot Operating System，机器人操作系统）" },
     { "name": "ROS1", "category": "嵌入式" },
     { "name": "ROS2", "category": "嵌入式" },
@@ -16,7 +18,8 @@
     { "name": "Elasticsearch Standard Analyzer" },
     { "name": "Elasticsearch Simple Analyzer" },
     { "name": "Elasticsearch Whitespace Analyzer" },
-    { "name": "Elasticsearch Keyword Analyzer" }
+    { "name": "Elasticsearch Keyword Analyzer" },
+    { "name": "RESTful" }
   ],
   "edges": [
     { "source": "系统架构设计师", "target": "项目开发", "description": "系统架构设计师是项目开发活动中的关键角色之一。" },
@@ -28,6 +31,8 @@
     { "source": "Elasticsearch Standard Analyzer", "target": "Elasticsearch Analyzer" },
     { "source": "Elasticsearch Simple Analyzer", "target": "Elasticsearch Analyzer" },
     { "source": "Elasticsearch Whitespace Analyzer", "target": "Elasticsearch Analyzer" },
-    { "source": "Elasticsearch Keyword Analyzer", "target": "Elasticsearch Analyzer" }
+    { "source": "Elasticsearch Keyword Analyzer", "target": "Elasticsearch Analyzer" },
+    { "source": "RESTful", "target": "HTTP Method" },
+    { "source": "HTTP Method", "target": "HTTP" }
   ]
 }
