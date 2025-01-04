@@ -2,7 +2,7 @@
   "nodes": [
     { "name": "系统架构设计师", "description": "System Architecture Designer" },
     { "name": "项目开发", "description": "项目开发活动" },
-    { "name": '传输层协议" },
+    { "name": "传输层协议" },
     { "name": "TCP协议" },
     { "name": "UDP协议" }
   ],
