@@ -89,6 +89,7 @@
     { "source": "指令集", "target": "处理器" },
     { "source": "复杂指令集", "predicate": "是一种", "target": "指令集" },
     { "source": "精简指令集", "predicate": "是一种", "target": "指令集" },
+    { "source": "复杂指令集", "predicate": "对比于", "target": "精简指令集", "link": "/posts/system-architecture-designer/cisc-vs-risc" },
     { "source": "图形处理器", "predicate": "是一种", "target": "处理器" },
     { "source": "信号处理器", "predicate": "是一种", "target": "处理器" },
     { "source": "现场可编程逻辑门阵", "predicate": "是一种", "target": "处理器" },
