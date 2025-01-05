@@ -23,6 +23,7 @@
     { "name": "MVC风格", "description": "用于用户交互程序的设计" },
     { "name": "SOA风格", "Description": "用在企业集成等方面" },
     { "name": "C2风格", "description": "用于GUI软件开发，用以构件灵活和可扩展的应用系统等" },
+    { "name": "计算机系统", "category": "计算机", "description": "计算机系统（Computer System）是指用于数据管理的计算机硬件、软件及网络组成的系统。它是按人的要求接收和存储信息，自动进行数据处理和计算，并输出结构信息的机器系统。" },
     { "name": "OSI参考模型", "category": "网络", "description": "OSI（Open System Interconnect，开放式系统互联）参考模型是ISO组织在1985年研究的网络互连模型。\n该体系结构标准定义了网络互连的七层框架（物理层、数据链路层、网络层、传输层、会话层、表示层和应用层）。" },
     { "name": "传输层", "category": "网络" },
     { "name": "TCP协议", "category": "网络" },
