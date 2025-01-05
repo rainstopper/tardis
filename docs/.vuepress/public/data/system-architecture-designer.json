@@ -32,6 +32,7 @@
     { "name": "图形处理器", "category": "计算机", "description": "图形处理器（GPU）" },
     { "name": "信号处理器", "category": "计算机", "description": "信号处理器（DSP）" },
     { "name": "现场可编程逻辑门阵", "category": "计算机", "description": "现场可编程逻辑门阵（FPGA）" },
+    { "name": "存储器", "category": "计算机", "description": "存储器是利用半导体、磁、光等介质制成用于存储数据的电子设备。" },
     { "name": "OSI参考模型", "category": "网络", "description": "OSI（Open System Interconnect，开放式系统互联）参考模型是ISO组织在1985年研究的网络互连模型。\n该体系结构标准定义了网络互连的七层框架（物理层、数据链路层、网络层、传输层、会话层、表示层和应用层）。" },
     { "name": "传输层", "category": "网络" },
     { "name": "TCP协议", "category": "网络" },
