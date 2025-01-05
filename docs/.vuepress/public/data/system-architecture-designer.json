@@ -26,7 +26,7 @@
     { "name": "计算机系统", "category": "计算机", "description": "计算机系统（Computer System）是指用于数据管理的计算机硬件、软件及网络组成的系统。它是按人的要求接收和存储信息，自动进行数据处理和计算，并输出结构信息的机器系统。" },
     { "name": "冯·诺依曼计算机结构", "category": "计算机" },
     { "name": "处理器", "category": "计算机", "description": "处理器（Central Processing Unit，CPU）" },
-    { "name": "指令集", "category": "计算机" },
+    { "name": "指令集", "category": "计算机", "description": "处理器的指令集按照复杂程度可分为复杂指令集与精简指令集" },
     { "name": "复杂指令集", "category": "计算机", "description": "复杂指令集（Complex Instruction Set Computing，CISC）" },
     { "name": "精简指令集", "category": "计算机", "description": "精简指令集（Reduced Instruction Set Computing，RISC）" },
     { "name": "图形处理器", "category": "计算机", "description": "图形处理器（GPU）" },
