@@ -1,7 +1,6 @@
 ---
 home: true
 title: 首页
-heroText: null
 tagline: null
 ---
 
