@@ -88,7 +88,7 @@
     { "name": "C/S和B/S风格", "category": "架构", "description": "适合于数据和处理分布在一定范围，通过网络连接构成系统" },
     { "name": "平台/插件风格", "category": "架构", "description": "用于具有插件扩展功能的应用程序" },
     { "name": "MVC风格", "category": "架构", "description": "用于用户交互程序的设计" },
-    { "name": "SOA风格", "category": "架构", "Description": "用在企业集成等方面" },
+    { "name": "SOA风格", "category": "架构", "description": "用在企业集成等方面" },
     { "name": "C2风格", "category": "架构", "description": "用于GUI软件开发，用以构件灵活和可扩展的应用系统等" },
     { "name": "可靠性" },
     { "name": "安全性" },
