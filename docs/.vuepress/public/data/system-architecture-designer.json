@@ -99,6 +99,7 @@
     { "source": "组件化", "target": "IEEE 1741-2000", "description": "组件化技术是IEEE 1741-2000标准提出阶段最重要的成果之一。" },
     { "source": "组件化", "predicate": "对比于", "target": "模块化", "description": "组件化开发并不等同于模块化开发。模块化开发只是在逻辑上做了切分，物理上（代码）通常没有真正意义上的隔离。组件化比模块化更独立。" },
     { "source": "组件化", "predicate": "对比于", "target": "应用集成", "description": "组件化不等同于应用集成。组件化比应用集成更紧密。" },
+    { "source": "架构描述语言", "target": "软件架构" },
     { "source": "C2SADL", "predicate": "是一种", "target": "架构描述语言" },
     { "source": "Wright", "predicate": "是一种", "target": "架构描述语言" },
     { "source": "ACME", "predicate": "是一种", "target": "架构描述语言" },
