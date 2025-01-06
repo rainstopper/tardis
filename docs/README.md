@@ -1,6 +1,8 @@
 ---
 home: true
 title: 首页
+heroText: null
+tagline: null
 ---
 
 <div style="height: 60vh; min-height: 500px">
