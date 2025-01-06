@@ -152,6 +152,7 @@
     { "source": "信号处理器", "predicate": "是一种", "target": "处理器" },
     { "source": "现场可编程逻辑门阵", "predicate": "是一种", "target": "处理器" },
     { "source": "冯·诺依曼结构计算机", "predicate": "包含", "target": "存储器" },
+    { "source": "存储器", "target": "处理器" },
     { "source": "存储器硬件结构", "target": "存储器" },
     { "source": "SRAM", "target": "存储器硬件结构" },
     { "source": "DRAM", "target": "存储器硬件结构" },
