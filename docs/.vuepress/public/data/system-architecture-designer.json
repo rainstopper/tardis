@@ -219,7 +219,7 @@
     { "source": "结构模型", "predicate": "核心是", "target": "架构描述语言" },
     { "source": "框架模型", "predicate": "是一种", "target": "架构建模方法" },
     { "source": "动态模型", "predicate": "是一种", "target": "架构建模方法" },
-    { "source": "过程模型", "predicate": "是一种", "target": "架构建模方法" },颈消失了。由于每个处理单元的数据都在内存里，需要进行数据持久化。\n云架构主要分成两部分：处理单元（Processing Unit）和虚拟中间件（Virtualized Middleware）。\n<img src=\"https://regular-files.oss-cn-hangzhou.aliyuncs.com/cloud-architecture.jpg\" />\n1、处理单元：实现业务逻辑；\n2、虚拟中间件：负责通信、保持会话控制（sessions）、数据复制、分布式处理和处理单元的部署。\n虚拟中间件又包含四个组件：\n(1) 消息中间件（Messaging Grid）：管理用户请求和会话控制（sessions），当一个请求进来以后，它决定分配给哪一个处理单元。\n(2) 数据处理中间件（Data Grid）：将数据复制到每一个处理单元，即数据同步，保证每个处理单元都得到同样的数据。\n(3) 处理中间件（Processing Grid）：可选，如果一个请求涉及不同类型的处理单元，该中间件负责协调处理单元。\n(4) 部署中间件（Deployment Manager）：负责处理单元的启动和关闭，监控负载和响应时间，当负载增加，就新启动负载单元，负载减少，就关闭处理单元。" },
+    { "source": "过程模型", "predicate": "是一种", "target": "架构建模方法" },
     { "source": "Philippe Kruchten", "predicate": "提出", "target": "“4+1”架构视图模型" },
     { "source": "“4+1”架构视图模型", "target": "架构建模方法", "description": "四种模型并不是完全独立的，通过有机的结合才可形成一个完整的模型来刻画系统架构，也将能更加准确、全面地反映软件架构。" },
     { "source": "架构应用场景", "target": "软件架构" },
