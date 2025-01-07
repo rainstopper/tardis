@@ -25,13 +25,15 @@ export default defineUserConfig({
     ],
 
     sidebar: {
-      '/posts/system-architecture-designer/': {
-        text: '系统架构设计师',
-        children: [
-          'architecture-designer',
-          'how-to-become-an-architecture-designer',
-        ],
-      },
+      '/posts/system-architecture-designer/': [
+        {
+          text: '系统架构设计师',
+          children: [
+            'architecture-designer',
+            'how-to-become-an-architecture-designer',
+          ],
+        },
+      ],
     },
   }),
 
