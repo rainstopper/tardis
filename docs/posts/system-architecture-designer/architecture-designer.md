@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/68479dd5-2ad4-44cb-a562-289f112979c3)# 系统架构设计师
+# 系统架构设计师
 
 系统架构设计师（System Architecture Designer）是项目开发活动中的众多角色之一，它可以是一个人或一个小组，也可以是一个团队。架构师（Architect）包含建筑师、设计师、创造者、缔造者等含义，可以说，架构师是社会各领域的创造者和缔造者。
 
