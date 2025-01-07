@@ -8,7 +8,7 @@ export default defineUserConfig({
 
   lang: 'zh-CN',
 
-  // title: 'TARDIS',
+  title: 'TARDIS',
   // description: '基于大方向功利主义的知识库',
 
   theme: defaultTheme({
