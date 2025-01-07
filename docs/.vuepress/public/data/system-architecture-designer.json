@@ -95,7 +95,7 @@
     { "name": "计算机软件", "category": "计算机" },
     { "name": "计算机组成结构", "category": "计算机", "description": "计算机组成结构（Computer Architecture）" },
     { "name": "冯·诺依曼结构计算机", "category": "计算机", "description": "冯·诺依曼结构计算机（Von Neumann machine）" },
-    { "name": "处理器", "category": "计算机", "description": "处理器（Central Processing Unit，CPU）" },
+    { "name": "处理器", "category": "计算机", "description": "处理器（Central Processing Unit，CPU）\n典型的处理器系统结构如下：\n<img src=\"https://regular-files.oss-cn-hangzhou.aliyuncs.com/typical-cpu-architecture.jpg\" />\n指令部件通过MMU-Cache的存储结构，从内存等不存储设备中取得相应的软件代码指令并完成译码和控制操作，控制存取部件从存储设备中取得新的数据，控制寄存器组为运算器准备有关寄存器数据，并准备好结果寄存器，控制整型、浮点、向量等运算部件开展运算。运算部件、寄存器单元、存取部件将执行结果通知完成部件，并在完成部件中完成结果的排队，由完成部件向指令部件反馈执行结果，控制指令的顺序执行、跳转等时序。" },
     { "name": "指令集", "category": "计算机", "description": "处理器的指令集按照复杂程度可分为复杂指令集与精简指令集" },
     { "name": "复杂指令集", "category": "计算机", "description": "复杂指令集（Complex Instruction Set Computers，CISC）" },
     { "name": "x86CPU" },
