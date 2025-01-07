@@ -252,7 +252,6 @@
     { "source": "SOA风格", "predicate": "是一种", "target": "架构风格" },
     { "source": "C2风格", "target": "架构应用场景", "description": "用于GUI软件开发，用以构件灵活和可扩展的应用系统等" },
     { "source": "C2风格", "predicate": "是一种", "target": "架构风格" },
-    { "" },
     { "source": "冯·诺依曼结构计算机", "predicate": "包含", "target": "处理器" },
     { "source": "指令集", "target": "处理器" },
     { "source": "复杂指令集", "predicate": "是一种", "target": "指令集" },
