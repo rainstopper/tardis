@@ -28,6 +28,7 @@ export default defineUserConfig({
       '/posts/system-architecture-designer/': [
         {
           text: '系统架构设计师',
+          link: '.',
           children: [
             'architecture-designer',
             'how-to-become-an-architecture-designer',
