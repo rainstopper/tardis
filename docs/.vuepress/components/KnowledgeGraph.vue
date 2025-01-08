@@ -135,7 +135,7 @@ const props = defineProps({
    */
   minNodeOpacity: {
     type: Number,
-    default: 0.4,
+    default: 0.5,
   },
 
   /**
