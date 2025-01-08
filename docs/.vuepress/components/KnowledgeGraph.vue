@@ -644,7 +644,7 @@ $LABEL_WIDTH: 60px;
 
       .content {
         position: relative;
-        margin-left: $LABEL_WIDTH;
+        // margin-left: $LABEL_WIDTH;
 
         .input {
           input {
