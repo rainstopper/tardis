@@ -449,6 +449,8 @@
     { "source": "数据库分类", "predicate": "包括", "target": "列存储数据库" },
     { "source": "数据库分类", "predicate": "包括", "target": "文档数据库" },
     { "source": "数据库分类", "predicate": "包括", "target": "搜索引擎数据库" },
+    { "source": "数据模型", "target": "关系型数据库", "description": "数据模型是对数据库组织方式的一种模型化表示，是数据库系统的核心与基础。" },
+    { "source": "关系模型", "target": "数据模型" },
     
     { "source": "层次化存储结构", "target": "存储器" },
     { "source": "Cache", "target": "层次化存储结构" },
