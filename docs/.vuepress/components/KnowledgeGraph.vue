@@ -187,6 +187,15 @@ const props = defineProps({
   },
 
   /**
+   * 节点标签字号
+   * @param {Number}
+   */
+  nodeLabelFontSize: {
+    type: Number,
+    default: 12,
+  },
+
+  /**
    * 颜色
    * @param {Array}
    */
@@ -398,7 +407,7 @@ const nodes = computed(() => {
         ...label,
         // 度数足够大时展示
         show: degree >= props.nodeLabelVisibleDegree,
-        fontSize: 10,
+        fontSize: props.nodeLabelFontSize,
       }
     }
   }).filter(({ value }) => value >= props.nodeVisibleDegree)
