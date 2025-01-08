@@ -384,6 +384,7 @@
     { "source": "LPT打印接口", "predicate": "是一种", "target": "接口" },
     { "source": "RS-232接口", "predicate": "是一种", "target": "接口" },
     { "source": "计算机组成结构", "predicate": "包含", "target": "外部设备" },
+    { "source": "接口", "target": "总线", "description": "一种总线可能存在多种接口" },
     
     { "source": "层次化存储结构", "target": "存储器" },
     { "source": "Cache", "target": "层次化存储结构" },
