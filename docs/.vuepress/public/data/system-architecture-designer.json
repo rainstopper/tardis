@@ -344,6 +344,7 @@
     { "source": "PCIe", "predicate": "是一种", "target": "并行总线" },
     { "source": "ATA", "predicate": "是一种", "target": "并行总线" },
     { "source": "串行总线", "target": "总线", "description": "计算机总线存在许多种类，常见的有并行总线和串行总线。" },
+    { "source": "串行总线", "predicate": "相对于", "target": "并行总线" },
     { "source": "USB", "predicate": "是一种", "target": "串行总线" },
     { "source": "SATA", "predicate": "是一种", "target": "串行总线" },
     { "source": "CAN", "predicate": "是一种", "target": "串行总线" },
