@@ -42,5 +42,5 @@ onMounted(() => {
 </script>
 
 <template lang="html">
-  <KnowledgeGraph v-bind="$props" />
+  <KnowledgeGraph v-bind="$attrs" />
 </template>
