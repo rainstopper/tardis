@@ -605,7 +605,7 @@
     { "source": "网络协议", "predicate": "包括", "target": "移动网协议" },
     { "source": "计算机软件", "predicate": "包括", "target": "中间件" },
     { "source": "应用软件", "target": "中间件" },
-    { "source": "中间件", "target": "系统软件" },
+    { "source": "中间件", "target": "操作系统" },
     { "source": "中间件", "predicate": "包括", "target": "通信处理（消息）中间件" },
     { "source": "通信处理（消息）中间件", "predicate": "包括", "target": "eLink" },
     { "source": "BEA", "target": "eLink" },
