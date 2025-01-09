@@ -575,6 +575,9 @@
     { "source": "网络协议", "predicate": "包括", "target": "广域网协议" },
     { "source": "网络协议", "predicate": "包括", "target": "无线网协议" },
     { "source": "网络协议", "predicate": "包括", "target": "移动网协议" },
+    { "source": "计算机软件", "predicate": "包括", "target": "中间件" },
+    { "source": "应用软件", "target": "中间件" },
+    { "source": "中间件", "target": "系统软件" },
     
     { "source": "层次化存储结构", "target": "存储器" },
     { "source": "Cache", "target": "层次化存储结构" },
