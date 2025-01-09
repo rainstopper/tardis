@@ -288,6 +288,8 @@
     { "name": "Sun", "category": "组织" },
     { "name": "Java", "category": "计算机" },
     { "name": "DNA 2000", "category": "标准", "description": "Microsoft DNA 2000是Microsoft在推出Windows 2000系列换操作系统平台的基础上，在扩展了分布计算模型以及改造BackOffice系列服务器端分布计算产品后发布的新的分布计算架构和规范。在服务器端，DNA 2000提供了ASP、COM、Cluster等的应用支持。DNA 2000融合了当今最先进的分布计算理论和思想，如事务处理、可伸缩性、异步消息队列和集群等内容。DNA可以开发基于Microsoft平台的服务器构件应用，其中，如数据库事务服务、异步通信服务和安全服务等，都由底层的分布对象系统提供。\nMicrosoft的DCOM/COM/COM+技术在DNA 2000分布计算结构基础上，展现了一个全新的分布构件应用模型。首先，DCOM/COM/COM+的构件仍然采用普通的构件对象模型（Component Object Model，COM）。COM最初作为Microsoft桌面系统的构件技术，主要为本地的对象连接与嵌入（Object Linking and Embedding，OLE）应用服务，但是随着Microsoft服务器操作系统Windows NT和分布式构件对象模型（Distributed Component Object Model，DCOM）的发布，COM通过底层的远程支持使得构件技术延伸到了分布应用领域。DCOM/COM/COM+更将其扩充为面向服务器端分布应用的业务逻辑中间件。通过COM+的相关服务设施，如负载均衡、内存数据库、对象池、构件管理与配置等，DCOM/COM/COM+将COM、DCOM、MTS（Microsoft Transaction Server，微软事物处理服务器）的功能有机地统一在一起，形成了一个功能强大的构件应用架构。\n通过购买商用构件（平台）并遵循其开发标准来进行应用开发，是提高应用软件开发效率的常见选择。" },
+    { "name": "通用软件", "category": "计算机", "description": "常见的通用软件分文字处理软件、电子表格软件、媒体播放软件、网络通信软件、个人信息管理软件、演示软件、绘图软件、信息检索软件和游戏软件等。这些软件设计得很精巧，易学易用，在用户几乎不经培训就能普及到计算机应用的进程中，它们起到了很大的作用。\n<img src=\"https://regular-files.oss-cn-hangzhou.aliyuncs.com/general-software.jpg\" />" },
+    { "name": "专用软件", "category": "计算机", "description": "专用软件是按照不同领域用户的特定应用要求而专门设计开发的，如超市的销售管理和市场预测系统、汽车制造厂的集成制造系统、大学教务管理系统、医院信息管理系统、酒店客房管理系统等。这类软件专用性强，设计和开发成本相对较高，主要是机构用户购买，因此价格比通用应用软件贵得多。" },
     
     { "name": "层次化存储结构", "category": "计算机", "description": "计算机中全部信息包括输入的原始数据、计算机程序、中间运行结果和最终运行结果都保存在存储器中。存储器包括：主存、辅存、通用寄存器、Cache四类。" },
     { "name": "Cache", "category": "计算机", "description": "Cache是为了解决高速运行的CPU与主存储器之间速度不匹配的问题。Cache中存放的是主存的部分拷贝（副本）。它是按照程序的局部性原理选取出来的最常使用或不久将来仍将使用的内容。" },
@@ -650,6 +652,8 @@
     { "source": "Sun", "target": "J2EE" },
     { "source": "Java", "target": "J2EE" },
     { "source": "商用构件标准规范", "predicate": "包括", "target": "DNA 2000" },
+    { "source": "应用软件", "predicate": "包括", "target": "通用软件" },
+    { "source": "应用软件", "predicate": "包括", "target": "专用软件" },
     
     { "source": "层次化存储结构", "target": "存储器" },
     { "source": "Cache", "target": "层次化存储结构" },
