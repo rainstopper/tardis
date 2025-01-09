@@ -652,6 +652,7 @@
     { "source": "Sun", "target": "J2EE" },
     { "source": "Java", "target": "J2EE" },
     { "source": "商用构件标准规范", "predicate": "包括", "target": "DNA 2000" },
+    { "source": "Microsoft", "target": "DNA 2000" },
     { "source": "应用软件", "predicate": "包括", "target": "通用软件" },
     { "source": "应用软件", "predicate": "包括", "target": "专用软件" },
     
