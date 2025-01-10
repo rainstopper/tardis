@@ -144,7 +144,9 @@
     { "name": "线性思维", "description": "线性思维（linear thinking）", "description": "线性思维就是演绎推理：面对一个事物，你先看它属于哪个分类，再想想那一类事物应该如何操作，你就对这个事物如何操作。" },
     { "name": "电车难题", "description": "线性思维（linear thinking）", "description": "有一列失控的电车正在轨道上高速行驶，前方的轨道上躺着五个人，而你手里掌握着一个分道岔拉杆。如果你不动手，那五个人就会被撞死；而如果你拉动拉杆让电车转向另一条轨道，那条轨道的一个人就会被撞死……请问你是救五个人，还是保一个人？" },
     { "name": "面子" },
-    { "name": "家庭" }
+    { "name": "家庭" },
+    { "name": "休闲时间体力活动", "description": "休闲时间体力活动（Leisure time physical activity）\n<img src=\"https://piccdn2.umiwi.com/uploader/image/ddarticle/2024112819/1860571185784330232/112819.png\" />\n每周10小时之内，锻炼时间越长衰老就越慢。" },
+    { "name": "冰期", "description": "在过去数百万年间，地球大约每十万年，会经历一个冰期（ice age）。\n<img src=\"https://piccdn2.umiwi.com/uploader/image/ddarticle/2024120121/1860859335140263592/120121.png\" />" }
   ],
   "edges": [
     { "source": "内部驱动", "predicate": "相对于", "target": "外部驱动" },
