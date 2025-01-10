@@ -134,7 +134,9 @@
     { "name": "自我决定理论", "description": "自我决定理论（Self-Determination Theory, STD）" },
     { "name": "《人类新史》", "category": "书籍", "description": "《人类新史》（The Dawn of Everything）" },
     { "name": "大卫·格雷伯", "category": "人物", "description": "人类学家大卫·格雷伯（David Graeber）曾经是耶鲁大学教授，后来因为参与了占领华尔街运动而被耶鲁开除，去了伦敦大学。他在2020年9月因为感染新冠导致的并发症去世。" },
-    { "name": "大卫·温格罗", "category": "人物", "description": "考古学家大卫·温格罗（David Wengrow）" }
+    { "name": "大卫·温格罗", "category": "人物", "description": "考古学家大卫·温格罗（David Wengrow）" },
+    { "name": "马塞尔·莫斯", "category": "人物", "description": "马塞尔·莫斯（Marcel Mauss, 1872—1950）" },
+    { "name": "拒绝的结构", "description": "马塞尔·莫斯提出，文化是拒绝的结构（structures of refusal）：我们的文化跟你们不一样，是因为我们故意跟你们不一样。" }
   ],
   "edges": [
     { "source": "内部驱动", "predicate": "相对于", "target": "外部驱动" },
@@ -266,6 +268,7 @@
     { "source": "复盘", "predicate": "解决", "target": "淡出效应" },
     { "source": "自我决定理论", "target": "内驱力", "description": "一、要想形成内驱力，让人发自内心地想去做一件事，以下三个心理需求最好全都得到满足：\n<b>1. 自主性（Autonomy）</b>：我做这个纯粹是我自己的选择，是根据我的意愿、价值观和兴趣决定的，是我自己主导；\n<b>2. 胜任感（Competence）</b>：我做这个事儿做得比较好，我有战胜挑战的技能；\n<b>3. 关系感（Relatedness）</b>：这个事儿有利于我和别人建立情感连接，能提高我的归属感，能促进理解。\n这些要求对任何人，包括小孩，都好使。现在外部激励常常不能同时满足这三个要求。\n\n二、外在动机可以被逐渐内化，整个过程分为四步：\n1、外在调节（External Regulation）；\n2、内摄调节（Introjected Regulation）；\n3、认同调节（Identified Regulation）；\n4、整合调节（Integrated Regulation）。" },
     { "source": "《人类新史》", "predicate": "的作者之一是", "target": "大卫·格雷伯" },
-    { "source": "《人类新史》", "predicate": "的作者之一是", "target": "大卫·温格罗" }
+    { "source": "《人类新史》", "predicate": "的作者之一是", "target": "大卫·温格罗" },
+    { "source": "马塞尔·莫斯", "predicate": "提出", "target": "拒绝的结构" }
   ]
 }
