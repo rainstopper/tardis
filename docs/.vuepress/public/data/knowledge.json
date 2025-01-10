@@ -136,7 +136,15 @@
     { "name": "大卫·格雷伯", "category": "人物", "description": "人类学家大卫·格雷伯（David Graeber）曾经是耶鲁大学教授，后来因为参与了占领华尔街运动而被耶鲁开除，去了伦敦大学。他在2020年9月因为感染新冠导致的并发症去世。" },
     { "name": "大卫·温格罗", "category": "人物", "description": "考古学家大卫·温格罗（David Wengrow）" },
     { "name": "马塞尔·莫斯", "category": "人物", "description": "马塞尔·莫斯（Marcel Mauss, 1872—1950）" },
-    { "name": "拒绝的结构", "description": "马塞尔·莫斯提出，文化是拒绝的结构（structures of refusal）：我们的文化跟你们不一样，是因为我们故意跟你们不一样。" }
+    { "name": "拒绝的结构", "description": "马塞尔·莫斯提出，文化是拒绝的结构（structures of refusal）：我们的文化跟你们不一样，是因为我们故意跟你们不一样。\n你必须强化自己的不同点，才能有一个充满自豪感的身份认同。" },
+    { "name": "《文化解码》", "category": "书籍", "description": "《文化解码：解读美国、中国和日本思维差异》（Culture Hacks: Deciphering Differences in American, Chinese, And Japanese Thinking, 2019）" },
+    { "name": "理查德·康拉德", "category": "人物", "description": "理查德·康拉德（Richard Conrad）" },
+    { "name": "中国文化" },
+    { "name": "横向思维", "description": "横向思维（lateral thinking）", "description": "横向思维不能单看这件事本身如何——你必须考虑它所处的具体情境是怎样的，你得根据这个事儿和其他事物的关系决定这件事怎么办。\n横向思维的心法有三步——\n第一，你必须非常清楚你的最高目的是什么，这是不能含糊的。\n第二，你会对具体要你做什么很敏感，取决于你的能力和接受程度。\n第三，但是，从最高目的到具体的事儿之间的路线，那些“原则上的指引”、“规则”、“名义”什么的，都可以通融，没有那么重要。" },
+    { "name": "线性思维", "description": "线性思维（linear thinking）", "description": "线性思维就是演绎推理：面对一个事物，你先看它属于哪个分类，再想想那一类事物应该如何操作，你就对这个事物如何操作。" },
+    { "name": "电车难题", "description": "线性思维（linear thinking）", "description": "有一列失控的电车正在轨道上高速行驶，前方的轨道上躺着五个人，而你手里掌握着一个分道岔拉杆。如果你不动手，那五个人就会被撞死；而如果你拉动拉杆让电车转向另一条轨道，那条轨道的一个人就会被撞死……请问你是救五个人，还是保一个人？" },
+    { "name": "面子" },
+    { "name": "家庭" }
   ],
   "edges": [
     { "source": "内部驱动", "predicate": "相对于", "target": "外部驱动" },
@@ -269,6 +277,13 @@
     { "source": "自我决定理论", "target": "内驱力", "description": "一、要想形成内驱力，让人发自内心地想去做一件事，以下三个心理需求最好全都得到满足：\n<b>1. 自主性（Autonomy）</b>：我做这个纯粹是我自己的选择，是根据我的意愿、价值观和兴趣决定的，是我自己主导；\n<b>2. 胜任感（Competence）</b>：我做这个事儿做得比较好，我有战胜挑战的技能；\n<b>3. 关系感（Relatedness）</b>：这个事儿有利于我和别人建立情感连接，能提高我的归属感，能促进理解。\n这些要求对任何人，包括小孩，都好使。现在外部激励常常不能同时满足这三个要求。\n\n二、外在动机可以被逐渐内化，整个过程分为四步：\n1、外在调节（External Regulation）；\n2、内摄调节（Introjected Regulation）；\n3、认同调节（Identified Regulation）；\n4、整合调节（Integrated Regulation）。" },
     { "source": "《人类新史》", "predicate": "的作者之一是", "target": "大卫·格雷伯" },
     { "source": "《人类新史》", "predicate": "的作者之一是", "target": "大卫·温格罗" },
-    { "source": "马塞尔·莫斯", "predicate": "提出", "target": "拒绝的结构" }
+    { "source": "马塞尔·莫斯", "predicate": "提出", "target": "拒绝的结构" },
+    { "source": "《文化解码》", "predicate": "的作者是", "target": "理查德·康拉德" },
+    { "source": "《文化解码》", "target": "中国文化" },
+    { "source": "中国文化", "target": "横向思维", "description": "康拉德认为横向思维意味着中国人缺少探索事物一般规律的欲望。我们如果只爱分析具体的问题，不总结一般抽象规律，那就不会做出科学发现。而如果我们总是含糊对待规则，就难以形成法治和契约精神。" },
+    { "source": "线性思维", "predicate": "相对于", "target": "横向思维" },
+    { "source": "横向思维", "target": "电车难题" },
+    { "source": "中国文化", "target": "面子", "description": "只要能给中国人面子，就什么都好谈。" },
+    { "source": "中国文化", "target": "家庭", "description": "中国的家庭是个由内而外、由近而远的差序格局。康拉德说横向思维决定了“你弟弟的妻子的表姐的同学的弟弟都可以纳入你的家庭圈”。\n在国际政治上，家庭圈意味着“天下”体系，认为其他国家应该按照距离中国远近排序，中国理所应当对周边国家发挥影响力，使之成为缓冲地带……这些都是西方政客需要理解的。" }
   ]
 }
