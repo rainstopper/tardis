@@ -148,7 +148,9 @@
     { "name": "休闲时间体力活动", "description": "休闲时间体力活动（Leisure time physical activity）\n<img src=\"https://piccdn2.umiwi.com/uploader/image/ddarticle/2024112819/1860571185784330232/112819.png\" />\n每周10小时之内，锻炼时间越长衰老就越慢。" },
     { "name": "冰期", "description": "在过去数百万年间，地球大约每十万年，会经历一个冰期（ice age）。\n<img src=\"https://piccdn2.umiwi.com/uploader/image/ddarticle/2024120121/1860859335140263592/120121.png\" />" },
     { "name": "邓巴数" },
-    { "name": "认知反思测试", "description": "认知反思测试（cognitive reflection test, CRT）" }
+    { "name": "认知反思测试", "description": "认知反思测试（cognitive reflection test, CRT）" },
+    { "name": "《第二幕》", "description": "《第二幕：大器晚成者能告诉你关于成功与重塑人生的那些事》（Second Act: What Late Bloomers Can Tell You About Success and Reinventing Your Life）" },
+    { "name": "亨利·奥利弗", "description": "亨利·奥利弗（Henry Oliver）" }
   ],
   "edges": [
     { "source": "内部驱动", "predicate": "相对于", "target": "外部驱动" },
@@ -288,6 +290,7 @@
     { "source": "线性思维", "predicate": "相对于", "target": "横向思维" },
     { "source": "横向思维", "target": "电车难题" },
     { "source": "中国文化", "target": "面子", "description": "只要能给中国人面子，就什么都好谈。" },
-    { "source": "中国文化", "target": "家庭", "description": "中国的家庭是个由内而外、由近而远的差序格局。康拉德说横向思维决定了“你弟弟的妻子的表姐的同学的弟弟都可以纳入你的家庭圈”。\n在国际政治上，家庭圈意味着“天下”体系，认为其他国家应该按照距离中国远近排序，中国理所应当对周边国家发挥影响力，使之成为缓冲地带……这些都是西方政客需要理解的。" }
+    { "source": "中国文化", "target": "家庭", "description": "中国的家庭是个由内而外、由近而远的差序格局。康拉德说横向思维决定了“你弟弟的妻子的表姐的同学的弟弟都可以纳入你的家庭圈”。\n在国际政治上，家庭圈意味着“天下”体系，认为其他国家应该按照距离中国远近排序，中国理所应当对周边国家发挥影响力，使之成为缓冲地带……这些都是西方政客需要理解的。" },
+    { "source": "第二幕", "predicate": "的作者是", "description": "亨利·奥利弗" }
   ]
 }
