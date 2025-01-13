@@ -149,8 +149,8 @@
     { "name": "冰期", "description": "在过去数百万年间，地球大约每十万年，会经历一个冰期（ice age）。\n<img src=\"https://piccdn2.umiwi.com/uploader/image/ddarticle/2024120121/1860859335140263592/120121.png\" />" },
     { "name": "邓巴数" },
     { "name": "认知反思测试", "description": "认知反思测试（cognitive reflection test, CRT）" },
-    { "name": "《第二幕》", "description": "《第二幕：大器晚成者能告诉你关于成功与重塑人生的那些事》（Second Act: What Late Bloomers Can Tell You About Success and Reinventing Your Life）" },
-    { "name": "亨利·奥利弗", "description": "亨利·奥利弗（Henry Oliver）" }
+    { "name": "《第二幕》", "category": "书籍", "description": "《第二幕：大器晚成者能告诉你关于成功与重塑人生的那些事》（Second Act: What Late Bloomers Can Tell You About Success and Reinventing Your Life）" },
+    { "name": "亨利·奥利弗", "category": "人物", "description": "亨利·奥利弗（Henry Oliver）" }
   ],
   "edges": [
     { "source": "内部驱动", "predicate": "相对于", "target": "外部驱动" },
