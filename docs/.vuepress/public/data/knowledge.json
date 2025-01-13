@@ -155,7 +155,8 @@
     { "name": "晚熟者", "description": "晚熟者（late bloomer）的英文字面意思是花开得比较晚。奥利弗定义的晚熟者是那些在没有人期望他们成功的时候取得成功的人。" },
     { "name": "大卫·加伦森", "category": "人物", "description": "大卫·加伦森（David Galenson），经济学家" },
     { "name": "概念艺术家" , "description": "概念艺术家（conceptual artists）一出场就抓到了好牌，找到了创造价值的正确方法论，所以行动的系统性特别强。他们从基本原理出发一路都走对了，能快速成功。有很多名人，像莫扎特、毕加索等等，都是年纪轻轻就扬名立万，都属于概念艺术家。" }
-    { "name": "实验艺术家", "description": "实验艺术家（experimental artists）是很长时间内都不知道自己要做什么。\n实验艺术家虽然是在干别的，但也是在探索。他们一直都在实践中积累感悟，反复探索。他们走了很多弯路但并不是在浪费时间。" }
+    { "name": "实验艺术家", "description": "实验艺术家（experimental artists）是很长时间内都不知道自己要做什么。\n实验艺术家虽然是在干别的，但也是在探索。他们一直都在实践中积累感悟，反复探索。他们走了很多弯路但并不是在浪费时间。" },
+    { "name": "低效的准备期", "description": "低效的准备期（inefficient preparation）" }
   ],
   "edges": [
     { "source": "内部驱动", "predicate": "相对于", "target": "外部驱动" },
@@ -302,6 +303,7 @@
     { "source": "大卫·加伦森", "predicate": "提出", "target": "概念艺术家" },
     { "source": "大卫·加伦森", "predicate": "提出", "target": "实验艺术家" },
     { "source": "实验艺术家", "predicate": "相比于", "target": "概念艺术家" },
-    { "source": "实验艺术家", "predicate": "可能是", "target": "晚熟者" }
+    { "source": "实验艺术家", "predicate": "可能是", "target": "晚熟者" },
+    { "source": "晚熟者", "target": "低效的准备期", "description": "奥利弗考察各种研究和真实案例，认为晚熟者在遇到机遇大展身手之前，都有一个低效的准备期。" }
   ]
 }
