@@ -158,7 +158,8 @@
     { "name": "实验艺术家", "description": "实验艺术家（experimental artists）是很长时间内都不知道自己要做什么。\n实验艺术家虽然是在干别的，但也是在探索。他们一直都在实践中积累感悟，反复探索。他们走了很多弯路但并不是在浪费时间。" },
     { "name": "低效的准备期", "description": "低效的准备期（inefficient preparation）\n总结来说，晚熟者在低效准备期中需要有三种经历，培养三种品格。\n第一种经历是进入圈内。哪怕你不知道具体要干什么，也得先确保自己在牌桌上。\n第二种经历是退隐（retreat），就好像隐士一样，自己闭关独处一段时间，练内功。\n第三种经历是失败。失败使他们更清醒地认识自己，从而明确路径。" },
     { "name": "恒定成功概率理论", "description": "恒定成功概率理论（constant probability of success theory）" },
-    { "name": "Q因子", "description": "Q因子（Q factor）" }
+    { "name": "Q因子", "description": "Q因子（Q factor）" },
+    { "name": "阿睿提", "description": "阿睿提（古希腊语：ἀρετή，罗马化：areté）是古希腊哲学中的一个概念，本意是一个人把自己的才能发挥到卓越的程度。" }
   ],
   "edges": [
     { "source": "内部驱动", "predicate": "相对于", "target": "外部驱动" },
