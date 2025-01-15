@@ -170,7 +170,9 @@
     { "name": "事后诸葛亮效应" },
     { "name": "邓宁-克鲁格效应" },
     { "name": "认知失调" },
-    { "name": "任何偏见=一个信念+确认偏误", "category": "规律" }
+    { "name": "任何偏见=一个信念+确认偏误", "category": "规律" },
+    { "name": "艾琳·厄伯斯特", "category": "人物", "description": "艾琳·厄伯斯特（Aileen Oeberst）" },
+    { "name": "罗兰·因霍夫", "category": "人物", "description": "罗兰·因霍夫（Roland Imhoff）" }
   ],
   "edges": [
     { "source": "内部驱动", "predicate": "相对于", "target": "外部驱动" },
@@ -318,6 +320,8 @@
     { "source": "大卫·加伦森", "predicate": "提出", "target": "实验艺术家" },
     { "source": "实验艺术家", "predicate": "相比于", "target": "概念艺术家" },
     { "source": "实验艺术家", "predicate": "可能是", "target": "晚熟者" },
-    { "source": "晚熟者", "target": "低效的准备期", "description": "奥利弗考察各种研究和真实案例，认为晚熟者在遇到机遇大展身手之前，都有一个低效的准备期。" }
+    { "source": "晚熟者", "target": "低效的准备期", "description": "奥利弗考察各种研究和真实案例，认为晚熟者在遇到机遇大展身手之前，都有一个低效的准备期。" },
+    { "source": "艾琳·厄伯斯特", "predicate": "提出", "target": "任何偏见=一个信念+确认偏误" },
+    { "source": "罗兰·因霍夫", "predicate": "提出", "target": "任何偏见=一个信念+确认偏误" }
   ]
 }
