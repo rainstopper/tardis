@@ -201,7 +201,10 @@
     { "name": "光明三角人格", "description": "光明三角人格（The Light Triad）" },
     { "name": "人文主义", "description": "人文主义（Humanism）是尊重他人。不但尊重，而且尊重每个人的独特性、尊重特殊需求和不同的价值观。能从他人的角度理解世界，而不是处处以自我为中心。" },
     { "name": "对人性的信任", "description": "对人性的信任（Faith in Humanity）认为人性本善，对陌生人也会以礼相待。" },
-    { "name": "康德主义", "description": "康德主义（Kantianism）的要点是认为人只能是目的，而不是手段。" }
+    { "name": "康德主义", "description": "康德主义（Kantianism）的要点是认为人只能是目的，而不是手段。" },
+    { "name": "朴素的推理理论", "description": "朴素的推理理论（naïve theory of reasoning）说，我们判断一个人的决定是不是自由的，是看他当时有选择还是没选择。" },
+    { "name": "科里·库西马诺", "category": "人物", "description": "科里·库西马诺（Corey Cusimano）" },
+    { "name": "塔尼亚·隆布罗佐", "category": "人物", "description": "塔尼亚·隆布罗佐（Tania Lombrozo）" }
   ],
   "edges": [
     { "source": "内部驱动", "predicate": "相对于", "target": "外部驱动" },
@@ -389,6 +392,8 @@
     { "source": "光明三角人格", "predicate": "包括", "target": "人文主义" },
     { "source": "光明三角人格", "predicate": "包括", "target": "对人性的信任" },
     { "source": "光明三角人格", "predicate": "包括", "target": "康德主义" },
-    { "source": "黑暗三角人格", "predicate": "相对于", "target": "光明三角人格" }
+    { "source": "黑暗三角人格", "predicate": "相对于", "target": "光明三角人格" },
+    { "source": "科里·库西马诺", "predicate": "提出", "target": "朴素的推理理论" },
+    { "source": "塔尼亚·隆布罗佐", "predicate": "提出", "target": "朴素的推理理论" }
   ]
 }
