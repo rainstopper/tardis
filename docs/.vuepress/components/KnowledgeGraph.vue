@@ -346,6 +346,15 @@ function getNodeOpacity(degree) {
 }
 
 /**
+ * 获取节点标题
+ * @param  {Object} node 节点
+ * @return {String}      节点标题
+ */
+function getNodeLabel(node) {
+  return node.alias || node.name
+}
+
+/**
  * ECharts 关系图的 nodes
  * 对 name（名称）属性重复的节点去重
  * 重新组织成 ECharts 关系图接受的数据格式
@@ -393,7 +402,6 @@ const nodes = computed(() => {
       // 未触发搜索
       itemStyle = { opacity: getNodeOpacity(degree) }
     }
-    const labelText = item.alias || item.name
     return {
       ...item,
       value: degree,
@@ -409,7 +417,7 @@ const nodes = computed(() => {
         // 度数足够大时展示
         show: degree >= props.nodeLabelVisibleDegree,
         fontSize: props.nodeLabelFontSize,
-        formatter: () => labelText || undefined,
+        formatter: () => getNodeLabel(item) || undefined,
       }
     }
   }).filter(({ value }) => value >= props.nodeVisibleDegree)
@@ -536,7 +544,7 @@ const keywords = computed(() => {
   if (commonUtil.isEmpty(keyword)) {
     return []
   }
-  return props.nodes.filter(item => item.name?.includes(keyword)).map(item => item.name)
+  return props.nodes.filter(item => getNodeLabel(item)?.includes(keyword)).map(item => getNodeLabel(item))
 })
 
 /**
