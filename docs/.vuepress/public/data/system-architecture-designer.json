@@ -150,7 +150,10 @@
     { "name": "N-S图" },
     { "name": "问题分析图" },
     { "name": "动态测试", "category": "软件工程" },
-    { "name": "静态测试", "category": "软件工程" }
+    { "name": "静态测试", "category": "软件工程" },
+    { "name": "黑盒测试", "category": "软件工程" },
+    { "name": "白盒测试", "category": "软件工程" },
+    { "name": "灰盒测试", "category": "软件工程" }
   ],
   "edges": [
     { "source": "需求工程", "target": "需求开发" },
