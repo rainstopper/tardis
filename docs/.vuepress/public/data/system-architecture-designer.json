@@ -236,6 +236,12 @@
     { "source": "UML公共机制", "target": "UML公共机制/规格说明" },
     { "source": "UML公共机制", "target": "UML公共机制/修饰" },
     { "source": "UML公共机制", "target": "UML公共机制/公共分类" },
-    { "source": "UML公共机制", "target": "UML公共机制/扩展机制" }
+    { "source": "UML公共机制", "target": "UML公共机制/扩展机制" },
+    { "source": "UML", "target": "UML 4+1视图" },
+    { "source": "UML 4+1视图", "target": "UML 4+1视图/逻辑视图" },
+    { "source": "UML 4+1视图", "target": "UML 4+1视图/进程视图" },
+    { "source": "UML 4+1视图", "target": "UML 4+1视图/实现视图" },
+    { "source": "UML 4+1视图", "target": "UML 4+1视图/部署视图" },
+    { "source": "UML 4+1视图", "target": "UML 4+1视图/用例视图" },
   ]
 }
