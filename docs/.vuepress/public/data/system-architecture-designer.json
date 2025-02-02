@@ -51,9 +51,13 @@
     { "name": "面向对象开发方法", "category": "软件工程" },
     { "name": "面向对象分析", "category": "软件工程" },
     { "name": "UML" },
-    { "name": "构造块" },
-    { "name": "规则" },
-    { "name": "公共机制" },
+    { "name": "UML构造块", "alias": "构造块" },
+    { "name": "UML规则", "alias": "规则" },
+    { "name": "UML规则范围", "alias": "范围" },
+    { "name": "UML规则可见性", "alias": "可见性" },
+    { "name": "UML规则完整性", "alias": "完整性" },
+    { "name": "UML规则执行", "alias": "执行" },
+    { "name": "UML公共机制", "alias": "公共机制" },
     { "name": "数据流图" },
     { "name": "数据流" },
     { "name": "加工" },
@@ -132,8 +136,12 @@
     { "source": "低耦合", "target": "通信耦合" },
     { "source": "低耦合", "target": "公共耦合" },
     { "source": "低耦合", "target": "内容耦合" },
-    { "source": "UML", "target": "构造块" },
-    { "source": "UML", "target": "规则" },
-    { "source": "UML", "target": "公共机制" }
+    { "source": "UML", "target": "UML构造块" },
+    { "source": "UML", "target": "UML规则" },
+    { "source": "UML规则", "target": "UML规则范围" },
+    { "source": "UML规则", "target": "UML规则可见性" },
+    { "source": "UML规则", "target": "UML规则完整性" },
+    { "source": "UML规则", "target": "UML规则执行" },
+    { "source": "UML", "target": "UML公共机制" }
   ]
 }
