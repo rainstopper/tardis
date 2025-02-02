@@ -183,7 +183,10 @@
     { "name": "自动化测试", "category": "软件工程" },
     { "name": "净室软件工程", "category": "软件工程" },
     { "name": "函数理论", "category": "软件工程" },
-    { "name": "抽样理论", "category": "软件工程" }
+    { "name": "抽样理论", "category": "软件工程" },
+    { "name": "黑盒", "category": "软件工程" },
+    { "name": "状态盒", "category": "软件工程" },
+    { "name": "清晰盒", "category": "软件工程" }
   ],
   "edges": [
     { "source": "需求工程", "target": "需求开发" },
