@@ -380,7 +380,7 @@ const nodes = computed(() => {
     let itemStyle, label = {}
     if (commonUtil.isNotEmpty(keyword)) {
       // 关键字不为空时触发搜索
-      if (item.name.includes(keyword)) {
+      if (getNodeLabel(item).includes(keyword)) {
         // 该节点在搜索结果中
         itemStyle = {
           // 节点颜色高亮
