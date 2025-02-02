@@ -65,6 +65,10 @@
     { "name": "UML规则/完整性", "alias": "完整性" },
     { "name": "UML规则/执行", "alias": "执行" },
     { "name": "UML公共机制", "alias": "公共机制" },
+    { "name": "UML公共机制/规格说明", "alias": "规格说明" },
+    { "name": "UML公共机制/修饰", "alias": "修饰" },
+    { "name": "UML公共机制/公共分类", "alias": "公共分类" },
+    { "name": "UML公共机制/扩展机制", "alias": "扩展机制" },
     { "name": "数据流图" },
     { "name": "数据流" },
     { "name": "加工" },
@@ -156,6 +160,10 @@
     { "source": "UML规则", "target": "UML规则/可见性" },
     { "source": "UML规则", "target": "UML规则/完整性" },
     { "source": "UML规则", "target": "UML规则/执行" },
-    { "source": "UML", "target": "UML公共机制" }
+    { "source": "UML", "target": "UML公共机制" },
+    { "source": "UML公共机制", "target": "UML公共机制/规格说明" },
+    { "source": "UML公共机制", "target": "UML公共机制/修饰" },
+    { "source": "UML公共机制", "target": "UML公共机制/公共分类" },
+    { "source": "UML公共机制", "target": "UML公共机制/扩展机制" }
   ]
 }
