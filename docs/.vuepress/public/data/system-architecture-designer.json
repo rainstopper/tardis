@@ -152,6 +152,10 @@
     { "name": "动态测试", "category": "软件工程" },
     { "name": "静态测试", "category": "软件工程" },
     { "name": "黑盒测试", "category": "软件工程" },
+    { "name": "等价类划分", "category": "软件工程" },
+    { "name": "边界值划分", "category": "软件工程" },
+    { "name": "错误推测", "category": "软件工程" },
+    { "name": "因果图", "category": "软件工程" },
     { "name": "白盒测试", "category": "软件工程" },
     { "name": "灰盒测试", "category": "软件工程" }
   ],
