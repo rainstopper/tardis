@@ -408,6 +408,7 @@ const nodes = computed(() => {
         // 度数足够大时展示
         show: degree >= props.nodeLabelVisibleDegree,
         fontSize: props.nodeLabelFontSize,
+        formatter: item.alias || item.name || undefined,
       }
     }
   }).filter(({ value }) => value >= props.nodeVisibleDegree)
