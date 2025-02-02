@@ -158,7 +158,11 @@
     { "name": "因果图", "category": "软件工程" },
     { "name": "白盒测试", "category": "软件工程" },
     { "name": "逻辑覆盖", "category": "软件工程" },
-    { "name": "灰盒测试", "category": "软件工程" }
+    { "name": "灰盒测试", "category": "软件工程" },
+    { "name": "单元测试", "category": "软件工程" },
+    { "name": "集成测试", "category": "软件工程" },
+    { "name": "确认测试", "category": "软件工程" },
+    { "name": "系统测试", "category": "软件工程" }
   ],
   "edges": [
     { "source": "需求工程", "target": "需求开发" },
