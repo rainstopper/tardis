@@ -167,6 +167,10 @@
     { "name": "桩模块", "category": "软件工程" },
     { "name": "冒烟测试", "category": "软件工程" },
     { "name": "确认测试", "category": "软件工程" },
+    { "name": "内部确认测试", "category": "软件工程" },
+    { "name": "Alpha测试", "category": "软件工程" },
+    { "name": "Beta测试", "category": "软件工程" },
+    { "name": "验收测试", "category": "软件工程" },
     { "name": "系统测试", "category": "软件工程" }
   ],
   "edges": [
