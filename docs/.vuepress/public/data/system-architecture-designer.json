@@ -184,9 +184,21 @@
     { "name": "净室软件工程", "category": "软件工程" },
     { "name": "函数理论", "category": "软件工程" },
     { "name": "抽样理论", "category": "软件工程" },
+    { "name": "统计过程控制下的增量式开发", "category": "软件工程" },
+    { "name": "基于函数的规范与设计", "category": "软件工程" },
     { "name": "黑盒", "category": "软件工程" },
     { "name": "状态盒", "category": "软件工程" },
-    { "name": "清晰盒", "category": "软件工程" }
+    { "name": "清晰盒", "category": "软件工程" },
+    { "name": "正确性验证", "category": "软件工程" },
+    { "name": "统计测试和软件验证", "category": "软件工程" },
+    { "name": "基于构件的软件工程", "category": "软件工程" },
+    { "name": "商用现货构件", "category": "软件工程" },
+    { "name": "构件" },
+    { "name": "可组装" },
+    { "name": "可部署" },
+    { "name": "文档化" },
+    { "name": "独立性" },
+    { "name": "标准化" }
   ],
   "edges": [
     { "source": "需求工程", "target": "需求开发" },
