@@ -56,7 +56,8 @@
     { "name": "状态转换图" },
     { "name": "结构化设计", "category": "软件工程" },
     { "name": "概要设计", "category": "软件工程" },
-    { "name": "纤细设计", "category": "软件工程" },
+    { "name": "系统结构图", "category": "软件工程" },
+    { "name": "详细设计", "category": "软件工程" },
     { "name": "结构化编程", "category": "软件工程" },
     { "name": "系统设计", "category": "软件工程" }
   ],
@@ -89,6 +90,7 @@
     { "source": "结构化分析", "target": "状态转换图" },
     { "source": "结构化方法", "target": "结构化设计" },
     { "source": "结构化设计", "target": "概要设计" },
+    { "source": "概要设计", "target": "系统结构图" },
     { "source": "结构化设计", "target": "详细设计" },
     { "source": "结构化方法", "target": "结构化编程" }
   ]
