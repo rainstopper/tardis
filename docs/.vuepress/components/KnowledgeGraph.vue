@@ -393,6 +393,7 @@ const nodes = computed(() => {
       // 未触发搜索
       itemStyle = { opacity: getNodeOpacity(degree) }
     }
+    const labelText = item.alias || item.name
     return {
       ...item,
       value: degree,
@@ -408,7 +409,7 @@ const nodes = computed(() => {
         // 度数足够大时展示
         show: degree >= props.nodeLabelVisibleDegree,
         fontSize: props.nodeLabelFontSize,
-        formatter: item.alias || item.name || undefined,
+        formatter: () => labelText || undefined,
       }
     }
   }).filter(({ value }) => value >= props.nodeVisibleDegree)
