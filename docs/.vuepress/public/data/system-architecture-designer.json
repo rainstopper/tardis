@@ -175,7 +175,12 @@
     { "name": "压力测试", "category": "软件工程" },
     { "name": "负载测试", "category": "软件工程" },
     { "name": "强度测试", "category": "软件工程" },
-    { "name": "容量测试", "category": "软件工程" }
+    { "name": "容量测试", "category": "软件工程" },
+    { "name": "AB测试", "category": "软件工程" },
+    { "name": "Web测试", "category": "软件工程" },
+    { "name": "链接测试", "category": "软件工程" },
+    { "name": "表单测试", "category": "软件工程" },
+    { "name": "自动化测试", "category": "软件工程" }
   ],
   "edges": [
     { "source": "需求工程", "target": "需求开发" },
