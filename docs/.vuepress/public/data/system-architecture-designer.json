@@ -54,6 +54,7 @@
     { "name": "用例模型建模", "category": "软件工程" },
     { "name": "用例规约", "category": "软件工程" },
     { "name": "分析模型", "category": "软件工程" },
+    { "name": "面向对象设计过程", "category": "软件工程" },
     { "name": "UML" },
     { "name": "UML构造块" },
     { "name": "UML构造块/事物", "alias": "UML事物" },
