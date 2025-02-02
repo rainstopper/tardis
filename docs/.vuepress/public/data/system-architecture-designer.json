@@ -79,6 +79,8 @@
     { "source": "加工", "target": "灰洞" },
     { "source": "数据流图", "target": "数据存储" },
     { "source": "数据流图", "target": "外部实体" },
+    { "source": "数据流图", "target": "分层数据流图" },
+    { "source": "分层数据流图", "target": "父子平衡" },
     { "source": "结构化分析", "target": "E-R图" },
     { "source": "结构化分析", "target": "状态转换图" },
     { "source": "结构化方法", "target": "结构化设计" },
