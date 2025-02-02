@@ -51,6 +51,9 @@
     { "name": "面向对象开发方法", "category": "软件工程" },
     { "name": "面向对象分析", "category": "软件工程" },
     { "name": "UML" },
+    { "name": "构造块" },
+    { "name": "规则" },
+    { "name": "公共机制" },
     { "name": "数据流图" },
     { "name": "数据流" },
     { "name": "加工" },
@@ -128,6 +131,9 @@
     { "source": "低耦合", "target": "控制耦合" },
     { "source": "低耦合", "target": "通信耦合" },
     { "source": "低耦合", "target": "公共耦合" },
-    { "source": "低耦合", "target": "内容耦合" }
+    { "source": "低耦合", "target": "内容耦合" },
+    { "source": "UML", "target": "构造块" },
+    { "source": "UML", "target": "规则" },
+    { "source": "UML", "target": "公共机制" }
   ]
 }
