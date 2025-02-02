@@ -148,7 +148,9 @@
     { "name": "程序流程图" },
     { "name": "IPO图" },
     { "name": "N-S图" },
-    { "name": "问题分析图" }
+    { "name": "问题分析图" },
+    { "name": "动态测试", "category": "软件工程" },
+    { "name": "静态测试", "category": "软件工程" }
   ],
   "edges": [
     { "source": "需求工程", "target": "需求开发" },
