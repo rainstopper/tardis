@@ -161,6 +161,11 @@
     { "name": "灰盒测试", "category": "软件工程" },
     { "name": "单元测试", "category": "软件工程" },
     { "name": "集成测试", "category": "软件工程" },
+    { "name": "一次性组装", "category": "软件工程" },
+    { "name": "增量式组装", "category": "软件工程" },
+    { "name": "驱动模块", "category": "软件工程" },
+    { "name": "桩模块", "category": "软件工程" },
+    { "name": "冒烟测试", "category": "软件工程" },
     { "name": "确认测试", "category": "软件工程" },
     { "name": "系统测试", "category": "软件工程" }
   ],
