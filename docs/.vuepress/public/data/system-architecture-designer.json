@@ -221,6 +221,7 @@
     { "source": "UML构造块/图", "target": "UML构造块/图/制品图" },
     { "source": "UML构造块/图", "target": "UML构造块/图/包图" },
     { "source": "UML构造块/图", "target": "UML构造块/图/交互概览图" },
+    { "source": "UML构造块/图/状态图", "predicate": "相比于", "target": "UML构造块/图/活动图" },
     { "source": "UML", "target": "UML规则" },
     { "source": "UML规则", "target": "UML规则/范围" },
     { "source": "UML规则", "target": "UML规则/可见性" },
