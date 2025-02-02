@@ -62,7 +62,21 @@
     { "name": "状态转换图" },
     { "name": "模块化" },
     { "name": "高内聚" },
-    { "name": "低耦合" }
+    { "name": "功能内聚" },
+    { "name": "顺序内聚" },
+    { "name": "通信内聚" },
+    { "name": "过程内聚" },
+    { "name": "时间内聚" },
+    { "name": "逻辑内聚" },
+    { "name": "偶然内聚" },
+    { "name": "低耦合" },
+    { "name": "非直接耦合" },
+    { "name": "数据耦合" },
+    { "name": "标记耦合" },
+    { "name": "控制耦合" },
+    { "name": "通信耦合" },
+    { "name": "公共耦合" },
+    { "name": "内容耦合" }
   ],
   "edges": [
     { "source": "需求工程", "target": "需求开发" },
@@ -97,6 +111,20 @@
     { "source": "结构化设计", "target": "详细设计" },
     { "source": "结构化方法", "target": "结构化编程" },
     { "source": "模块化", "target": "高内聚" },
-    { "source": "模块化", "target": "低耦合" }
+    { "source": "高内聚", "target": "功能内聚" },
+    { "source": "高内聚", "target": "顺序内聚" },
+    { "source": "高内聚", "target": "通信内聚" },
+    { "source": "高内聚", "target": "过程内聚" },
+    { "source": "高内聚", "target": "时间内聚" },
+    { "source": "高内聚", "target": "逻辑内聚" },
+    { "source": "高内聚", "target": "偶然内聚" },
+    { "source": "模块化", "target": "低耦合" },
+    { "source": "低耦合", "target": "非直接耦合" },
+    { "source": "低耦合", "target": "数据耦合" },
+    { "source": "低耦合", "target": "标记耦合" },
+    { "source": "低耦合", "target": "控制耦合" },
+    { "source": "低耦合", "target": "通信耦合" },
+    { "source": "低耦合", "target": "公共耦合" },
+    { "source": "低耦合", "target": "内容耦合" }
   ]
 }
