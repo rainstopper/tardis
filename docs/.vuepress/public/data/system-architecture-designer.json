@@ -374,7 +374,14 @@
     { "name": "经济风险", "category": "项目管理" },
     { "name": "技术风险", "category": "项目管理" },
     { "name": "政治风险", "category": "项目管理" },
-    { "name": "组织风险", "category": "项目管理" }
+    { "name": "组织风险", "category": "项目管理" },
+    { "name": "可管理风险", "category": "项目管理" },
+    { "name": "不可管理风险", "category": "项目管理" },
+    { "name": "局部风险", "category": "项目管理" },
+    { "name": "总体风险", "category": "项目管理" },
+    { "name": "已知风险", "category": "项目管理" },
+    { "name": "可预测风险", "category": "项目管理" },
+    { "name": "不可预测风险", "category": "项目管理" }
   ],
   "edges": [
     { "source": "需求工程", "target": "需求开发" },
