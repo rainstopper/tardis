@@ -295,7 +295,15 @@
     { "name": "机会成本" },
     { "name": "沉没成本" },
     { "name": "学习曲线" },
-    { "name": "挣值管理", "category": "项目管理" }
+    { "name": "挣值管理", "category": "项目管理" },
+    { "name": "完工预算", "alias": "完工预算（BAC）", "category": "项目管理" },
+    { "name": "实际成本", "alias": "实际成本（AC）", "category": "项目管理" },
+    { "name": "计划价值", "alias": "计划价值（PV）", "category": "项目管理" },
+    { "name": "挣值", "alias": "挣值（EV）", "category": "项目管理" },
+    { "name": "进度偏差", "alias": "进度偏差（SV）", "category": "项目管理" },
+    { "name": "进度绩效指数", "alias": "进度绩效指数（SPI）", "category": "项目管理" },
+    { "name": "成本偏差", "alias": "成本偏差（CV）", "category": "项目管理" },
+    { "name": "成本绩效指数", "alias": "成本绩效指数（CPI）", "category": "项目管理" }
   ],
   "edges": [
     { "source": "需求工程", "target": "需求开发" },
