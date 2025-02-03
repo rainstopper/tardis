@@ -329,7 +329,10 @@
     { "name": "配置审核", "category": "项目管理" },
     { "name": "配置状态报告", "category": "项目管理" },
     { "name": "配置审计", "category": "项目管理" },
-    { "name": "配置管理和交付", "category": "项目管理" }
+    { "name": "配置管理和交付", "category": "项目管理" },
+    { "name": "配置项状态/草稿", "alias": "草稿", "category": "项目管理" },
+    { "name": "配置项状态/正式", "alias": "正式", "category": "项目管理" },
+    { "name": "配置项状态/修改", "alias": "修改", "category": "项目管理" }
   ],
   "edges": [
     { "source": "需求工程", "target": "需求开发" },
