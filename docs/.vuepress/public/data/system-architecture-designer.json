@@ -334,7 +334,11 @@
     { "name": "配置项状态/草稿", "alias": "草稿", "category": "项目管理" },
     { "name": "配置项状态/正式", "alias": "正式", "category": "项目管理" },
     { "name": "配置项状态/修改", "alias": "修改", "category": "项目管理" },
-    { "name": "配置基线", "category": "项目管理" }
+    { "name": "配置基线", "category": "项目管理" },
+    { "name": "配置库", "category": "项目管理" },
+    { "name": "开发库", "category": "项目管理" },
+    { "name": "受控库", "category": "项目管理" },
+    { "name": "产品库", "category": "项目管理" }
   ],
   "edges": [
     { "source": "需求工程", "target": "需求开发" },
