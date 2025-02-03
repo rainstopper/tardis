@@ -288,13 +288,14 @@
     { "name": "成本预算", "category": "项目管理" },
     { "name": "成本基准", "category": "项目管理" },
     { "name": "成本控制", "category": "项目管理" },
-    { "name": "可变成本", "category": "项目管理" },
-    { "name": "固定成本", "category": "项目管理" },
-    { "name": "直接成本", "category": "项目管理" },
-    { "name": "间接成本", "category": "项目管理" },
-    { "name": "机会成本", "category": "项目管理" },
-    { "name": "沉没成本", "category": "项目管理" },
-    { "name": "学习曲线", "category": "项目管理" }
+    { "name": "可变成本" },
+    { "name": "固定成本" },
+    { "name": "直接成本" },
+    { "name": "间接成本" },
+    { "name": "机会成本" },
+    { "name": "沉没成本" },
+    { "name": "学习曲线" },
+    { "name": "挣值管理", "category": "项目管理" }
   ],
   "edges": [
     { "source": "需求工程", "target": "需求开发" },
