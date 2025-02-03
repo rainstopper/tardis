@@ -365,7 +365,16 @@
     { "name": "风险监控", "category": "项目管理" },
     { "name": "风险属性/随机性", "alias": "随机性", "category": "项目管理" },
     { "name": "风险属性/相对性", "alias": "相对性", "category": "项目管理" },
-    { "name": "风险属性/可变性", "alias": "可变性", "category": "项目管理" }
+    { "name": "风险属性/可变性", "alias": "可变性", "category": "项目管理" },
+    { "name": "纯粹风险", "category": "项目管理" },
+    { "name": "投机风险", "category": "项目管理" },
+    { "name": "自然风险", "category": "项目管理" },
+    { "name": "人为风险", "category": "项目管理" },
+    { "name": "行为风险", "category": "项目管理" },
+    { "name": "经济风险", "category": "项目管理" },
+    { "name": "技术风险", "category": "项目管理" },
+    { "name": "政治风险", "category": "项目管理" },
+    { "name": "组织风险", "category": "项目管理" }
   ],
   "edges": [
     { "source": "需求工程", "target": "需求开发" },
