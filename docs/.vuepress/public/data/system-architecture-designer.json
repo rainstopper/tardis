@@ -343,7 +343,13 @@
     { "name": "质量规划", "category": "项目管理" },
     { "name": "质量保证", "category": "项目管理" },
     { "name": "质量控制", "category": "项目管理" },
-    { "name": "项目风险管理", "category": "项目管理" }
+    { "name": "项目风险管理", "category": "项目管理" },
+    { "name": "风险管理计划编制", "category": "项目管理" },
+    { "name": "风险识别", "category": "项目管理" },
+    { "name": "风险定性分析", "category": "项目管理" },
+    { "name": "风险定量分析", "category": "项目管理" },
+    { "name": "风险应对计划编制", "category": "项目管理" },
+    { "name": "风险监控", "category": "项目管理" }
   ],
   "edges": [
     { "source": "需求工程", "target": "需求开发" },
