@@ -381,7 +381,8 @@
     { "name": "总体风险", "category": "项目管理" },
     { "name": "已知风险", "category": "项目管理" },
     { "name": "可预测风险", "category": "项目管理" },
-    { "name": "不可预测风险", "category": "项目管理" }
+    { "name": "不可预测风险", "category": "项目管理" },
+    { "name": "商业风险", "category": "项目管理" }
   ],
   "edges": [
     { "source": "需求工程", "target": "需求开发" },
