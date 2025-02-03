@@ -305,7 +305,8 @@
     { "name": "成本偏差", "alias": "成本偏差（CV）", "category": "项目管理" },
     { "name": "成本绩效指数", "alias": "成本绩效指数（CPI）", "category": "项目管理" },
     { "name": "非典型情况", "category": "项目管理" },
-    { "name": "典型情况", "category": "项目管理" }
+    { "name": "典型情况", "category": "项目管理" },
+    { "name": "进度落后措施", "category": "项目管理" }
   ],
   "edges": [
     { "source": "需求工程", "target": "需求开发" },
