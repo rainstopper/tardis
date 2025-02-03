@@ -316,7 +316,9 @@
     { "name": "可执行代码", "category": "项目管理" },
     { "name": "测试用例", "category": "项目管理" },
     { "name": "运行软件所需的各种数据", "category": "项目管理" },
-    { "name": "配置项属性", "category": "项目管理" }
+    { "name": "配置项属性", "category": "项目管理" },
+    { "name": "基线配置项", "category": "项目管理" },
+    { "name": "非基线配置项", "category": "项目管理" }
   ],
   "edges": [
     { "source": "需求工程", "target": "需求开发" },
