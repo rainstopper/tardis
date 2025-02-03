@@ -278,7 +278,8 @@
     { "name": "总时差", "category": "项目管理" },
     { "name": "自由时差", "category": "项目管理" },
     { "name": "正推法", "category": "项目管理" },
-    { "name": "逆推法", "category": "项目管理" }
+    { "name": "逆推法", "category": "项目管理" },
+    { "name": "时标网络图", "category": "项目管理" }
   ],
   "edges": [
     { "source": "需求工程", "target": "需求开发" },
