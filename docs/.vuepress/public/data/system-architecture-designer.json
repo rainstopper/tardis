@@ -306,7 +306,17 @@
     { "name": "成本绩效指数", "alias": "成本绩效指数（CPI）", "category": "项目管理" },
     { "name": "非典型情况", "category": "项目管理" },
     { "name": "典型情况", "category": "项目管理" },
-    { "name": "进度落后措施", "category": "项目管理" }
+    { "name": "进度落后措施", "category": "项目管理" },
+    { "name": "项目配置管理", "category": "项目管理" },
+    { "name": "配置项", "category": "项目管理" },
+    { "name": "项目计划书", "category": "项目管理" },
+    { "name": "需求文档", "category": "项目管理" },
+    { "name": "设计文档", "category": "项目管理" },
+    { "name": "源代码", "category": "项目管理" },
+    { "name": "可执行代码", "category": "项目管理" },
+    { "name": "测试用例", "category": "项目管理" },
+    { "name": "运行软件所需的各种数据", "category": "项目管理" },
+    { "name": "配置项属性", "category": "项目管理" }
   ],
   "edges": [
     { "source": "需求工程", "target": "需求开发" },
@@ -412,6 +422,6 @@
     { "source": "UML 4+1视图", "target": "UML 4+1视图/进程视图" },
     { "source": "UML 4+1视图", "target": "UML 4+1视图/实现视图" },
     { "source": "UML 4+1视图", "target": "UML 4+1视图/部署视图" },
-    { "source": "UML 4+1视图", "target": "UML 4+1视图/用例视图" },
+    { "source": "UML 4+1视图", "target": "UML 4+1视图/用例视图" }
   ]
 }
