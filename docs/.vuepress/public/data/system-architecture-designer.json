@@ -283,7 +283,11 @@
     { "name": "最小人数问题", "category": "项目管理" },
     { "name": "资源平滑技术", "category": "项目管理" },
     { "name": "活动压缩", "category": "项目管理" },
-    { "name": "项目成本管理", "category": "项目管理" }
+    { "name": "项目成本管理", "category": "项目管理" },
+    { "name": "成本估算", "category": "项目管理" },
+    { "name": "成本预算", "category": "项目管理" },
+    { "name": "成本基准", "category": "项目管理" },
+    { "name": "成本控制", "category": "项目管理" }
   ],
   "edges": [
     { "source": "需求工程", "target": "需求开发" },
