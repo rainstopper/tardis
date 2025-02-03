@@ -321,7 +321,13 @@
     { "name": "非基线配置项", "category": "项目管理" },
     { "name": "配置管理员", "alias": "配置管理员（CMO）", "category": "项目管理" },
     { "name": "变更管理委员会", "alias": "变更管理委员会（CCB）", "category": "项目管理" },
-    { "name": "配置变更", "category": "项目管理" }
+    { "name": "配置变更", "category": "项目管理" },
+    { "name": "配置管理计划", "category": "项目管理" },
+    { "name": "配置标识", "category": "项目管理" },
+    { "name": "配置变更控制", "category": "项目管理" },
+    { "name": "配置版本控制", "category": "项目管理" },
+    { "name": "配置审核", "category": "项目管理" },
+    { "name": "配置状态报告", "category": "项目管理" }
   ],
   "edges": [
     { "source": "需求工程", "target": "需求开发" },
