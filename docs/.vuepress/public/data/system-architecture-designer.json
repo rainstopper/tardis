@@ -338,7 +338,12 @@
     { "name": "配置库", "category": "项目管理" },
     { "name": "开发库", "category": "项目管理" },
     { "name": "受控库", "category": "项目管理" },
-    { "name": "产品库", "category": "项目管理" }
+    { "name": "产品库", "category": "项目管理" },
+    { "name": "项目质量管理", "category": "项目管理" },
+    { "name": "质量规划", "category": "项目管理" },
+    { "name": "质量保证", "category": "项目管理" },
+    { "name": "质量控制", "category": "项目管理" },
+    { "name": "项目风险管理", "category": "项目管理" }
   ],
   "edges": [
     { "source": "需求工程", "target": "需求开发" },
