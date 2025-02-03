@@ -362,7 +362,10 @@
     { "name": "开拓", "category": "项目管理" },
     { "name": "分享", "category": "项目管理" },
     { "name": "强大", "category": "项目管理" },
-    { "name": "风险监控", "category": "项目管理" }
+    { "name": "风险监控", "category": "项目管理" },
+    { "name": "风险属性/随机性", "alias": "随机性", "category": "项目管理" },
+    { "name": "风险属性/相对性", "alias": "相对性", "category": "项目管理" },
+    { "name": "风险属性/可变性", "alias": "可变性", "category": "项目管理" }
   ],
   "edges": [
     { "source": "需求工程", "target": "需求开发" },
