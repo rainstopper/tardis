@@ -414,9 +414,17 @@
     { "name": "物理独立性", "category": "数据库" },
     { "name": "NoSQL数据库", "category": "数据库" },
     { "name": "文档存储", "category": "数据库" },
+    { "name": "MongoDB" },
+    { "name": "CouchDB" },
     { "name": "键值存储", "category": "数据库" },
+    { "name": "Memcached" },
+    { "name": "Redis" },
     { "name": "列存储", "category": "数据库" },
-    { "name": "图存储", "category": "数据库" }
+    { "name": "Bigtable" },
+    { "name": "HBase" },
+    { "name": "图存储", "category": "数据库" },
+    { "name": "Neo4j" },
+    { "name": "OrientDB" }
   ],
   "edges": [
     { "source": "需求工程", "target": "需求开发" },
