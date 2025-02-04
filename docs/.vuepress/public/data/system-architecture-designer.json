@@ -491,7 +491,11 @@
     { "name": "主属性", "category": "数据库" },
     { "name": "完全依赖函数", "category": "数据库" },
     { "name": "部分依赖函数", "category": "数据库" },
-    { "name": "传递依赖", "category": "数据库" }
+    { "name": "传递依赖", "category": "数据库" },
+    { "name": "Armstrong公理", "category": "数据库" },
+    { "name": "自反律", "category": "数据库" },
+    { "name": "增广律", "category": "数据库" },
+    { "name": "传递律", "category": "数据库" }
   ],
   "edges": [
     { "source": "需求工程", "target": "需求开发" },
