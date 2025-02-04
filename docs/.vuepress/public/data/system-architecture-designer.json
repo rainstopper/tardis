@@ -508,7 +508,8 @@
     { "name": "第二范式", "category": "数据库" },
     { "name": "第三范式", "category": "数据库" },
     { "name": "巴克斯范式", "category": "数据库" },
-    { "name": "第四范式", "category": "数据库" }
+    { "name": "第四范式", "category": "数据库" },
+    { "name": "保持函数依赖分解", "category": "数据库" }
   ],
   "edges": [
     { "source": "需求工程", "target": "需求开发" },
