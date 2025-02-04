@@ -512,7 +512,12 @@
     { "name": "保持函数依赖分解", "category": "数据库" },
     { "name": "无损分解", "category": "数据库" },
     { "name": "追踪表格法", "category": "数据库" },
-    { "name": "公式法", "category": "数据库" }
+    { "name": "公式法", "category": "数据库" },
+    { "name": "数据库设计过程", "category": "数据库" },
+    { "name": "需求分析", "category": "数据库" },
+    { "name": "概念结构设计", "category": "数据库" },
+    { "name": "逻辑结构设计", "category": "数据库" },
+    { "name": "物理设计", "category": "数据库" }
   ],
   "edges": [
     { "source": "需求工程", "target": "需求开发" },
