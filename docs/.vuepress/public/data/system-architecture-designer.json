@@ -495,7 +495,10 @@
     { "name": "Armstrong公理", "category": "数据库" },
     { "name": "自反律", "category": "数据库" },
     { "name": "增广律", "category": "数据库" },
-    { "name": "传递律", "category": "数据库" }
+    { "name": "传递律", "category": "数据库" },
+    { "name": "合并规则", "category": "数据库" },
+    { "name": "伪传递规则", "category": "数据库" },
+    { "name": "分解规则", "category": "数据库" }
   ],
   "edges": [
     { "source": "需求工程", "target": "需求开发" },
