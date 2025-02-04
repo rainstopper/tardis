@@ -503,7 +503,11 @@
     { "name": "修改异常", "category": "数据库" },
     { "name": "删除异常", "category": "数据库" },
     { "name": "插入异常", "category": "数据库" },
-    { "name": "闭包", "category": "数据库" }
+    { "name": "闭包", "category": "数据库" },
+    { "name": "第一范式", "category": "数据库" },
+    { "name": "第二范式", "category": "数据库" },
+    { "name": "第三范式", "category": "数据库" },
+    { "name": "巴克斯范式", "category": "数据库" }
   ],
   "edges": [
     { "source": "需求工程", "target": "需求开发" },
