@@ -400,7 +400,9 @@
     { "name": "数据库操作", "category": "数据库" },
     { "name": "数据库运行管理", "category": "数据库" },
     { "name": "数据组织、存储和管理", "category": "数据库" },
-    { "name": "数据库的管理和维护", "category": "数据库" }
+    { "name": "数据库的管理和维护", "category": "数据库" },
+    { "name": "并发控制", "category": "数据库" },
+    { "name": "故障恢复", "category": "数据库" }
   ],
   "edges": [
     { "source": "需求工程", "target": "需求开发" },
