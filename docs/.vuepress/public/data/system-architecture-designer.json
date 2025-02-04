@@ -447,7 +447,18 @@
     { "name": "参照完整性", "category": "数据库" },
     { "name": "用户定义完整性", "category": "数据库" },
     { "name": "触发器", "category": "数据库" },
-    { "name": "存储过程", "category": "数据库" }
+    { "name": "存储过程", "category": "数据库" },
+    { "name": "关系代数" },
+    { "name": "集合运算" },
+    { "name": "并" },
+    { "name": "差" },
+    { "name": "交" },
+    { "name": "笛卡尔积" },
+    { "name": "除" },
+    { "name": "关系运算" },
+    { "name": "选择" },
+    { "name": "投影" },
+    { "name": "连接" }
   ],
   "edges": [
     { "source": "需求工程", "target": "需求开发" },
