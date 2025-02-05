@@ -205,7 +205,8 @@
     { "name": "朴素的推理理论", "description": "朴素的推理理论（naïve theory of reasoning）说，我们判断一个人的决定是不是自由的，是看他当时有选择还是没选择。" },
     { "name": "科里·库西马诺", "category": "人物", "description": "科里·库西马诺（Corey Cusimano）" },
     { "name": "塔尼亚·隆布罗佐", "category": "人物", "description": "塔尼亚·隆布罗佐（Tania Lombrozo）" },
-    { "name": "疯狂人理论", "description": "疯狂人理论（Madman Theory）说如果你能够让别人相信你有不理性的一面，被逼到死角就可能做出不计后果的事情，那么对方就会谨慎地好好对待你。" }
+    { "name": "疯狂人理论", "description": "疯狂人理论（Madman Theory）说如果你能够让别人相信你有不理性的一面，被逼到死角就可能做出不计后果的事情，那么对方就会谨慎地好好对待你。" },
+    { "name": "林迪效应", "description": "林迪效应（Lindy effect）是指，已经存在很长时间的事物往往会继续存在很长时间，因为它们已经经受了考验。" }
   ],
   "edges": [
     { "source": "内部驱动", "predicate": "相对于", "target": "外部驱动" },
